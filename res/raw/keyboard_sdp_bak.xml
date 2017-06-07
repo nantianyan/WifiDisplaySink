@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+/* Copyright 2009-2013 Broadcom Corporation
+**
+** This program is the proprietary software of Broadcom Corporation and/or its
+** licensors, and may only be used, duplicated, modified or distributed
+** pursuant to the terms and conditions of a separate, written license
+** agreement executed between you and Broadcom (an "Authorized License").
+** Except as set forth in an Authorized License, Broadcom grants no license
+** (express or implied), right to use, or waiver of any kind with respect to
+** the Software, and Broadcom expressly reserves all rights in and to the
+** Software and all intellectual property rights therein.
+** IF YOU HAVE NO AUTHORIZED LICENSE, THEN YOU HAVE NO RIGHT TO USE THIS
+** SOFTWARE IN ANY WAY, AND SHOULD IMMEDIATELY NOTIFY BROADCOM AND DISCONTINUE
+** ALL USE OF THE SOFTWARE.
+**
+** Except as expressly set forth in the Authorized License,
+**
+** 1.     This program, including its structure, sequence and organization,
+**        constitutes the valuable trade secrets of Broadcom, and you shall
+**        use all reasonable efforts to protect the confidentiality thereof,
+**        and to use this information only in connection with your use of
+**        Broadcom integrated circuit products.
+**
+** 2.     TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE SOFTWARE IS PROVIDED
+**        "AS IS" AND WITH ALL FAULTS AND BROADCOM MAKES NO PROMISES,
+**        REPRESENTATIONS OR WARRANTIES, EITHER EXPRESS, IMPLIED, STATUTORY,
+**        OR OTHERWISE, WITH RESPECT TO THE SOFTWARE.  BROADCOM SPECIFICALLY
+**        DISCLAIMS ANY AND ALL IMPLIED WARRANTIES OF TITLE, MERCHANTABILITY,
+**        NONINFRINGEMENT, FITNESS FOR A PARTICULAR PURPOSE, LACK OF VIRUSES,
+**        ACCURACY OR COMPLETENESS, QUIET ENJOYMENT, QUIET POSSESSION OR
+**        CORRESPONDENCE TO DESCRIPTION. YOU ASSUME THE ENTIRE RISK ARISING OUT
+**        OF USE OR PERFORMANCE OF THE SOFTWARE.
+**
+** 3.     TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL BROADCOM OR
+**        ITS LICENSORS BE LIABLE FOR
+**        (i)   CONSEQUENTIAL, INCIDENTAL, SPECIAL, INDIRECT, OR EXEMPLARY
+**              DAMAGES WHATSOEVER ARISING OUT OF OR IN ANY WAY RELATING TO
+**              YOUR USE OF OR INABILITY TO USE THE SOFTWARE EVEN IF BROADCOM
+**              HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES; OR
+**        (ii)  ANY AMOUNT IN EXCESS OF THE AMOUNT ACTUALLY PAID FOR THE
+**              SOFTWARE ITSELF OR U.S. $1, WHICHEVER IS GREATER. THESE
+**              LIMITATIONS SHALL APPLY NOTWITHSTANDING ANY FAILURE OF
+**              ESSENTIAL PURPOSE OF ANY LIMITED REMEDY.
+*/
+-->
+<record>
+    <attribute id="0x0100" type="string">Android HID Keyboard for Bluetooth</attribute>
+    <attribute id="0x0101" type="string">A keyboard that runs over Bluetooth</attribute>
+    <attribute id="0x0102" type="string">Microsoft</attribute>
+    <attribute id="0x0201" type="uint16">0x0111</attribute>
+    <attribute id="0x0202" type="uint16">0x0080</attribute>
+    <attribute id="0x0203" type="uint8">0x0021</attribute>
+    <attribute id="0x0204" type="boolean">true</attribute>
+    <attribute id="0x0205" type="boolean">true</attribute>
+    <attribute id="0x0206" type="hex">05010906a1018501050819012903150025017501950391029505910105071ae0002ae70095088102810119002a910026ff00750895068100c0050c0901a1018507050c19002aff0395017510150027ff03000081007512950181010600ff0a05ff7505251f8102750181011a01fd2afffd150126ff00750881000a02ff150026ff007508810295018101c0</attribute>
+    <attribute id="0x0207" type="list">
+        <data type="uint16">0x0409</data>
+        <data type="uint16" >0x0100</data>
+    </attribute>
+    <attribute id="0x0208" type="boolean">false</attribute>
+    <attribute id="0x0209" type="boolean">true</attribute>
+    <attribute id="0x020a" type="boolean">true</attribute>
+    <attribute id="0x020b" type="uint16">0x0100</attribute>
+    <attribute id="0x020c" type="uint16">0x1f40</attribute>
+    <attribute id="0x020d" type="boolean">true</attribute>
+    <attribute id="0x020e" type="boolean">true</attribute>
+</record>
+

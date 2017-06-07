@@ -1,0 +1,1057 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ANetworkSession	lib/ANetworkSession.cpp	/^ANetworkSession::ANetworkSession()$/;"	f	class:android::ANetworkSession
+ANetworkSession	lib/ANetworkSession.h	/^struct ANetworkSession : public RefBase {$/;"	s	namespace:android
+ARP_PATH	src/com/lc/wifidisplaysink/RarpImpl.java	/^    public final String ARP_PATH = "\/proc\/net\/arp";$/;"	f	class:RarpImpl
+A_NETWORK_SESSION_H_	lib/ANetworkSession.h	19;"	d
+AppendCommonResponse	lib/sink/WifiDisplaySink.cpp	/^void WifiDisplaySink::AppendCommonResponse(AString *response, int32_t cseq) {$/;"	f	class:android::WifiDisplaySink
+ArpType	src/com/lc/wifidisplaysink/RarpImpl.java	/^        ArpType() {$/;"	m	class:RarpImpl.ArpType
+ArpType	src/com/lc/wifidisplaysink/RarpImpl.java	/^        ArpType(String ipaddress, String hwtype, String flags, String hwaddress, String mask, String device) {$/;"	m	class:RarpImpl.ArpType
+ArpType	src/com/lc/wifidisplaysink/RarpImpl.java	/^    public class ArpType {$/;"	c	class:RarpImpl
+Assembler	lib/rtp/RTPAssembler.cpp	/^RTPReceiver::Assembler::Assembler(const sp<AMessage> &notify)$/;"	f	class:android::RTPReceiver::Assembler
+Assembler	lib/rtp/RTPAssembler.h	/^struct RTPReceiver::Assembler : public RefBase {$/;"	s	class:android::RTPReceiver
+AudioRenderer	lib/sink/DirectRenderer.cpp	/^DirectRenderer::AudioRenderer::AudioRenderer($/;"	f	class:android::DirectRenderer::AudioRenderer
+AudioRenderer	lib/sink/DirectRenderer.cpp	/^struct DirectRenderer::AudioRenderer : public AHandler {$/;"	s	class:android::DirectRenderer	file:
+AvoidANRThread	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^        AvoidANRThread(String _ip, int _port) {$/;"	m	class:WaitingConnectionActivity.AvoidANRThread
+AvoidANRThread	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    private class AvoidANRThread extends Thread {$/;"	c	class:WaitingConnectionActivity
+BufferInfo	lib/sink/DirectRenderer.cpp	/^    struct BufferInfo {$/;"	s	struct:android::DirectRenderer::AudioRenderer	file:
+CONNECTED	lib/ANetworkSession.cpp	/^        CONNECTED,$/;"	e	enum:android::ANetworkSession::Session::State	file:
+CONNECTED	lib/sink/WifiDisplaySink.h	/^        CONNECTED,$/;"	e	enum:android::WifiDisplaySink::State
+CONNECTING	lib/ANetworkSession.cpp	/^        CONNECTING,$/;"	e	enum:android::ANetworkSession::Session::State	file:
+CONNECTING	lib/sink/WifiDisplaySink.h	/^        CONNECTING,$/;"	e	enum:android::WifiDisplaySink::State
+CompareRountripTime	lib/TimeSyncer.cpp	/^int TimeSyncer::CompareRountripTime(const TimeInfo *ti1, const TimeInfo *ti2) {$/;"	f	class:android::TimeSyncer
+DATAGRAM	lib/ANetworkSession.cpp	/^        DATAGRAM,$/;"	e	enum:android::ANetworkSession::Session::State	file:
+DEVICE_CLASS	src/com/lc/wifidisplaysink/HidDeviceActivity.java	/^    private static final int DEVICE_CLASS = 0x5c0;$/;"	f	class:HidDeviceActivity	file:
+DEVICE_CLASS	src/com/lc/wifidisplaysink/HidDeviceAdapterService.java	/^    private static final int DEVICE_CLASS = 0x5c0;$/;"	f	class:HidDeviceAdapterService	file:
+DIRECT_RENDERER_H_	lib/sink/DirectRenderer.h	19;"	d
+DecoderContext	lib/sink/DirectRenderer.cpp	/^DirectRenderer::DecoderContext::DecoderContext(const sp<AMessage> &notify)$/;"	f	class:android::DirectRenderer::DecoderContext
+DecoderContext	lib/sink/DirectRenderer.cpp	/^struct DirectRenderer::DecoderContext : public AHandler {$/;"	s	class:android::DirectRenderer	file:
+DirectRenderer	lib/sink/DirectRenderer.cpp	/^DirectRenderer::DirectRenderer($/;"	f	class:android::DirectRenderer
+DirectRenderer	lib/sink/DirectRenderer.h	/^struct DirectRenderer : public AHandler {$/;"	s	namespace:android
+EventHandler	src/com/lc/wifidisplaysink/WifiDisplaySink.java	/^        public EventHandler(WifiDisplaySink sink, Looper looper) {$/;"	m	class:WifiDisplaySink.EventHandler
+EventHandler	src/com/lc/wifidisplaysink/WifiDisplaySink.java	/^    private class EventHandler extends Handler$/;"	c	class:WifiDisplaySink
+FLAG_AUTO_CONNECT	lib/rtp/RTPReceiver.h	/^        FLAG_AUTO_CONNECT = 1,$/;"	e	enum:android::RTPReceiver::Flags
+FLAG_SPECIAL_MODE	lib/sink/WifiDisplaySink.h	/^        FLAG_SPECIAL_MODE = 1,$/;"	e	enum:android::WifiDisplaySink::Flags
+FRAGMENT_FLAG_TIME_VALID	lib/ANetworkSession.cpp	/^        FRAGMENT_FLAG_TIME_VALID = 1,$/;"	e	enum:android::ANetworkSession::Session::__anon3	file:
+Flags	lib/rtp/RTPReceiver.h	/^    enum Flags {$/;"	g	struct:android::RTPReceiver
+Flags	lib/sink/WifiDisplaySink.h	/^    enum Flags {$/;"	g	struct:android::WifiDisplaySink
+Fragment	lib/ANetworkSession.cpp	/^    struct Fragment {$/;"	s	struct:android::ANetworkSession::Session	file:
+GetConfiguration	lib/VideoFormats.cpp	/^bool VideoFormats::GetConfiguration($/;"	f	class:android::VideoFormats
+GetInt32Property	jni/JniWifiDisplaySink.cpp	/^static int32_t GetInt32Property($/;"	f	file:
+GetNowNTP	lib/rtp/RTPSender.cpp	/^uint64_t RTPSender::GetNowNTP() {$/;"	f	class:android::RTPSender
+GetProfileLevel	lib/VideoFormats.cpp	/^bool VideoFormats::GetProfileLevel($/;"	f	class:android::VideoFormats
+H264Assembler	lib/rtp/RTPAssembler.cpp	/^RTPReceiver::H264Assembler::H264Assembler(const sp<AMessage> &notify)$/;"	f	class:android::RTPReceiver::H264Assembler
+H264Assembler	lib/rtp/RTPAssembler.h	/^struct RTPReceiver::H264Assembler : public RTPReceiver::Assembler {$/;"	s	class:android::RTPReceiver
+HIDLauncher	src/com/lc/wifidisplaysink/HIDLauncher.java	/^public class HIDLauncher extends Activity {$/;"	c
+HandleRTSPResponseFunc	lib/sink/WifiDisplaySink.h	/^    typedef status_t (WifiDisplaySink::*HandleRTSPResponseFunc)($/;"	t	struct:android::WifiDisplaySink
+HidDeviceActivity	src/com/lc/wifidisplaysink/HidDeviceActivity.java	/^public class HidDeviceActivity extends Activity $/;"	c
+HidDeviceAdapterBinder	src/com/lc/wifidisplaysink/HidDeviceAdapterService.java	/^    public class HidDeviceAdapterBinder extends Binder {$/;"	c	class:HidDeviceAdapterService
+HidDeviceAdapterService	src/com/lc/wifidisplaysink/HidDeviceAdapterService.java	/^public class HidDeviceAdapterService extends Service{$/;"	c
+JNI_OnLoad	jni/JniWifiDisplaySink.cpp	/^jint JNI_OnLoad(JavaVM* vm, void* \/* reserved *\/) {$/;"	f
+JniWfdSinkListener	jni/JniWifiDisplaySink.cpp	/^JniWfdSinkListener::JniWfdSinkListener(JNIEnv* env, jobject thiz, jobject weak_thiz) {$/;"	f	class:JniWfdSinkListener
+JniWfdSinkListener	jni/JniWifiDisplaySink.cpp	/^class JniWfdSinkListener: public WfdSinkListener$/;"	c	file:
+LEVEL_31	lib/VideoFormats.h	/^        LEVEL_31 = 0,$/;"	e	enum:android::VideoFormats::LevelType
+LEVEL_32	lib/VideoFormats.h	/^        LEVEL_32,$/;"	e	enum:android::VideoFormats::LevelType
+LEVEL_40	lib/VideoFormats.h	/^        LEVEL_40,$/;"	e	enum:android::VideoFormats::LevelType
+LEVEL_41	lib/VideoFormats.h	/^        LEVEL_41,$/;"	e	enum:android::VideoFormats::LevelType
+LEVEL_42	lib/VideoFormats.h	/^        LEVEL_42,$/;"	e	enum:android::VideoFormats::LevelType
+LISTENING_RTSP	lib/ANetworkSession.cpp	/^        LISTENING_RTSP,$/;"	e	enum:android::ANetworkSession::Session::State	file:
+LISTENING_TCP_DGRAMS	lib/ANetworkSession.cpp	/^        LISTENING_TCP_DGRAMS,$/;"	e	enum:android::ANetworkSession::Session::State	file:
+LOCAL_CERTIFICATE	Android.mk	/^LOCAL_CERTIFICATE := platform$/;"	m
+LOCAL_CERTIFICATE	jni/Android.mk	/^LOCAL_CERTIFICATE := platform$/;"	m
+LOCAL_C_INCLUDES	lib/Android.mk	/^LOCAL_C_INCLUDES:= \\$/;"	m
+LOCAL_C_INCLUDES	lib/Ndroid.mk	/^LOCAL_C_INCLUDES:= \\$/;"	m
+LOCAL_JAVA_LIBRARIES	Android.mk	/^LOCAL_JAVA_LIBRARIES := com.broadcom.bt javax.obex$/;"	m
+LOCAL_JNI_SHARED_LIBRARIES	Android.mk	/^LOCAL_JNI_SHARED_LIBRARIES := libWifiDisplaySink$/;"	m
+LOCAL_MODULE	jni/Android.mk	/^LOCAL_MODULE    := libWifiDisplaySink$/;"	m
+LOCAL_MODULE	lib/Android.mk	/^LOCAL_MODULE:= libstagefright_wfd2$/;"	m
+LOCAL_MODULE	lib/Ndroid.mk	/^LOCAL_MODULE:= libstagefright_wfd$/;"	m
+LOCAL_MODULE	lib/Ndroid.mk	/^LOCAL_MODULE:= nettest$/;"	m
+LOCAL_MODULE	lib/Ndroid.mk	/^LOCAL_MODULE:= rtptest$/;"	m
+LOCAL_MODULE	lib/Ndroid.mk	/^LOCAL_MODULE:= udptest$/;"	m
+LOCAL_MODULE	lib/Ndroid.mk	/^LOCAL_MODULE:= wfd$/;"	m
+LOCAL_MODULE_TAGS	Android.mk	/^LOCAL_MODULE_TAGS := optional$/;"	m
+LOCAL_MODULE_TAGS	lib/Android.mk	/^LOCAL_MODULE_TAGS:= optional$/;"	m
+LOCAL_MODULE_TAGS	lib/Ndroid.mk	/^LOCAL_MODULE_TAGS := debug$/;"	m
+LOCAL_MODULE_TAGS	lib/Ndroid.mk	/^LOCAL_MODULE_TAGS:= optional$/;"	m
+LOCAL_PACKAGE_NAME	Android.mk	/^LOCAL_PACKAGE_NAME := WifiDisplaySink$/;"	m
+LOCAL_PATH	Android.mk	/^LOCAL_PATH:= $(call my-dir)$/;"	m
+LOCAL_PATH	jni/Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_PATH	lib/Android.mk	/^LOCAL_PATH:= $(call my-dir)$/;"	m
+LOCAL_PATH	lib/Ndroid.mk	/^LOCAL_PATH:= $(call my-dir)$/;"	m
+LOCAL_PROGUARD_ENABLED	Android.mk	/^LOCAL_PROGUARD_ENABLED := disabled$/;"	m
+LOCAL_REQUIRED_MODULES	Android.mk	/^LOCAL_REQUIRED_MODULES := libWifiDisplaySink$/;"	m
+LOCAL_SHARED_LIBRARIES	jni/Android.mk	/^LOCAL_SHARED_LIBRARIES:= \\$/;"	m
+LOCAL_SHARED_LIBRARIES	lib/Android.mk	/^LOCAL_SHARED_LIBRARIES:= \\$/;"	m
+LOCAL_SHARED_LIBRARIES	lib/Ndroid.mk	/^LOCAL_SHARED_LIBRARIES:= \\$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES := $(call all-subdir-java-files)$/;"	m
+LOCAL_SRC_FILES	jni/Android.mk	/^LOCAL_SRC_FILES := JniWifiDisplaySink.cpp$/;"	m
+LOCAL_SRC_FILES	lib/Android.mk	/^LOCAL_SRC_FILES:= \\$/;"	m
+LOCAL_SRC_FILES	lib/Ndroid.mk	/^LOCAL_SRC_FILES:= \\$/;"	m
+LOG_NDEBUG	lib/rtp/RTPReceiver.cpp	17;"	d	file:
+LOG_TAG	jni/JniWifiDisplaySink.cpp	6;"	d	file:
+LOG_TAG	lib/ANetworkSession.cpp	18;"	d	file:
+LOG_TAG	lib/MediaReceiver.cpp	18;"	d	file:
+LOG_TAG	lib/TimeSyncer.cpp	18;"	d	file:
+LOG_TAG	lib/VideoFormats.cpp	18;"	d	file:
+LOG_TAG	lib/nettest.cpp	18;"	d	file:
+LOG_TAG	lib/rtp/RTPAssembler.cpp	18;"	d	file:
+LOG_TAG	lib/rtp/RTPReceiver.cpp	18;"	d	file:
+LOG_TAG	lib/rtp/RTPSender.cpp	18;"	d	file:
+LOG_TAG	lib/rtptest.cpp	18;"	d	file:
+LOG_TAG	lib/sink/DirectRenderer.cpp	18;"	d	file:
+LOG_TAG	lib/sink/TunnelRenderer.cpp	18;"	d	file:
+LOG_TAG	lib/sink/WifiDisplaySink.cpp	18;"	d	file:
+LOG_TAG	lib/udptest.cpp	18;"	d	file:
+LOG_TAG	lib/wfd.cpp	18;"	d	file:
+LevelType	lib/VideoFormats.h	/^    enum LevelType {$/;"	g	struct:android::VideoFormats
+MAX_ARP_RETRY_COUNT	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    private static final int MAX_ARP_RETRY_COUNT = 60;$/;"	f	class:WaitingConnectionActivity	file:
+MAX_STEP	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    private static final int MAX_STEP = 127;$/;"	f	class:WifiDisplaySinkView	file:
+MEDIA_FILENAME	lib/rtptest.cpp	38;"	d	file:
+MODE_DATAGRAM	lib/ANetworkSession.cpp	/^        MODE_DATAGRAM,$/;"	e	enum:android::ANetworkSession::Session::Mode	file:
+MODE_ELEMENTARY_STREAMS	lib/MediaReceiver.h	/^        MODE_ELEMENTARY_STREAMS,$/;"	e	enum:android::MediaReceiver::Mode
+MODE_RTSP	lib/ANetworkSession.cpp	/^        MODE_RTSP,$/;"	e	enum:android::ANetworkSession::Session::Mode	file:
+MODE_TRANSPORT_STREAM	lib/MediaReceiver.h	/^        MODE_TRANSPORT_STREAM,$/;"	e	enum:android::MediaReceiver::Mode
+MODE_TRANSPORT_STREAM_RAW	lib/MediaReceiver.h	/^        MODE_TRANSPORT_STREAM_RAW,$/;"	e	enum:android::MediaReceiver::Mode
+MODE_UNDEFINED	lib/MediaReceiver.h	/^        MODE_UNDEFINED,$/;"	e	enum:android::MediaReceiver::Mode
+MODE_WEBSOCKET	lib/ANetworkSession.cpp	/^        MODE_WEBSOCKET,$/;"	e	enum:android::ANetworkSession::Session::Mode	file:
+MakeSocketNonBlocking	lib/ANetworkSession.cpp	/^status_t ANetworkSession::MakeSocketNonBlocking(int s) {$/;"	f	class:android::ANetworkSession
+MediaPacketSource	lib/rtptest.cpp	/^    MediaPacketSource()$/;"	f	struct:android::MediaPacketSource
+MediaPacketSource	lib/rtptest.cpp	/^struct MediaPacketSource : public PacketSource {$/;"	s	namespace:android	file:
+MediaReceiver	lib/MediaReceiver.cpp	/^MediaReceiver::MediaReceiver($/;"	f	class:android::MediaReceiver
+MediaReceiver	lib/MediaReceiver.h	/^struct MediaReceiver : public AHandler {$/;"	s	namespace:android
+Mode	lib/ANetworkSession.cpp	/^    enum Mode {$/;"	g	struct:android::ANetworkSession::Session	file:
+Mode	lib/ANetworkSession.h	/^    enum Mode {$/;"	g	struct:android::ANetworkSession
+Mode	lib/MediaReceiver.h	/^    enum Mode {$/;"	g	struct:android::MediaReceiver
+NetworkThread	lib/ANetworkSession.cpp	/^ANetworkSession::NetworkThread::NetworkThread(ANetworkSession *session)$/;"	f	class:android::ANetworkSession::NetworkThread
+NetworkThread	lib/ANetworkSession.cpp	/^struct ANetworkSession::NetworkThread : public Thread {$/;"	s	class:android::ANetworkSession	file:
+NotificationReason	lib/ANetworkSession.h	/^    enum NotificationReason {$/;"	g	struct:android::ANetworkSession
+OnErrorListener	src/com/lc/wifidisplaysink/WifiDisplaySink.java	/^    public interface OnErrorListener$/;"	i	class:WifiDisplaySink
+OutputInfo	lib/sink/DirectRenderer.h	/^    struct OutputInfo {$/;"	s	struct:android::DirectRenderer
+PACKETIZATION_AAC	lib/rtp/RTPBase.h	/^        PACKETIZATION_AAC,$/;"	e	enum:android::RTPBase::PacketizationMode
+PACKETIZATION_H264	lib/rtp/RTPBase.h	/^        PACKETIZATION_H264,$/;"	e	enum:android::RTPBase::PacketizationMode
+PACKETIZATION_NONE	lib/rtp/RTPBase.h	/^        PACKETIZATION_NONE,$/;"	e	enum:android::RTPBase::PacketizationMode
+PACKETIZATION_TRANSPORT_STREAM	lib/rtp/RTPBase.h	/^        PACKETIZATION_TRANSPORT_STREAM,$/;"	e	enum:android::RTPBase::PacketizationMode
+PAUSED	lib/sink/WifiDisplaySink.h	/^        PAUSED,$/;"	e	enum:android::WifiDisplaySink::State
+PLAYING	lib/sink/WifiDisplaySink.h	/^        PLAYING,$/;"	e	enum:android::WifiDisplaySink::State
+PROFILE_CBP	lib/VideoFormats.h	/^        PROFILE_CBP = 0,$/;"	e	enum:android::VideoFormats::ProfileType
+PROFILE_CHP	lib/VideoFormats.h	/^        PROFILE_CHP,$/;"	e	enum:android::VideoFormats::ProfileType
+PacketSource	lib/rtptest.cpp	/^    PacketSource() {}$/;"	f	struct:android::PacketSource
+PacketSource	lib/rtptest.cpp	/^struct PacketSource : public RefBase {$/;"	s	namespace:android	file:
+PacketizationMode	lib/rtp/RTPBase.h	/^    enum PacketizationMode {$/;"	g	struct:android::RTPBase
+Parameters	lib/Parameters.cpp	/^Parameters::Parameters() {}$/;"	f	class:android::Parameters
+Parameters	lib/Parameters.h	/^struct Parameters : public RefBase {$/;"	s	namespace:android
+Parse	lib/Parameters.cpp	/^sp<Parameters> Parameters::Parse(const char *data, size_t size) {$/;"	f	class:android::Parameters
+ParseURL	lib/sink/WifiDisplaySink.cpp	/^bool WifiDisplaySink::ParseURL($/;"	f	class:android::WifiDisplaySink
+PickBestFormat	lib/VideoFormats.cpp	/^bool VideoFormats::PickBestFormat($/;"	f	class:android::VideoFormats
+PickRandomRTPPort	lib/rtp/RTPSender.cpp	/^int32_t RTPBase::PickRandomRTPPort() {$/;"	f	class:android::RTPBase
+PlayerClient	lib/sink/TunnelRenderer.cpp	/^    PlayerClient() {}$/;"	f	struct:android::TunnelRenderer::PlayerClient
+PlayerClient	lib/sink/TunnelRenderer.cpp	/^struct TunnelRenderer::PlayerClient : public BnMediaPlayerClient {$/;"	s	class:android::TunnelRenderer	file:
+ProfileType	lib/VideoFormats.h	/^    enum ProfileType {$/;"	g	struct:android::VideoFormats
+REQUEST_DISCOVERABLE_BT	src/com/lc/wifidisplaysink/HIDLauncher.java	/^    private static final int REQUEST_DISCOVERABLE_BT = 300;$/;"	f	class:HIDLauncher	file:
+REQUEST_DISCOVERABLE_BT	src/com/lc/wifidisplaysink/HidDeviceActivity.java	/^    private static final int REQUEST_DISCOVERABLE_BT = 300;$/;"	f	class:HidDeviceActivity	file:
+REQUEST_DISCOVERABLE_BT_TIMEOUT	src/com/lc/wifidisplaysink/HidDeviceAdapterService.java	/^    private static final int REQUEST_DISCOVERABLE_BT_TIMEOUT = 300;$/;"	f	class:HidDeviceAdapterService	file:
+REQUEST_ENABLE_BT	src/com/lc/wifidisplaysink/HIDLauncher.java	/^    private static final int REQUEST_ENABLE_BT = 200;$/;"	f	class:HIDLauncher	file:
+REQUEST_SELECT_HID_HOST	src/com/lc/wifidisplaysink/HIDLauncher.java	/^    private static final int REQUEST_SELECT_HID_HOST = 400;$/;"	f	class:HIDLauncher	file:
+RESOLUTION_CEA	lib/VideoFormats.h	/^        RESOLUTION_CEA,$/;"	e	enum:android::VideoFormats::ResolutionType
+RESOLUTION_HH	lib/VideoFormats.h	/^        RESOLUTION_HH,$/;"	e	enum:android::VideoFormats::ResolutionType
+RESOLUTION_VESA	lib/VideoFormats.h	/^        RESOLUTION_VESA,$/;"	e	enum:android::VideoFormats::ResolutionType
+RTPBase	lib/rtp/RTPBase.h	/^struct RTPBase {$/;"	s	namespace:android
+RTPReceiver	lib/rtp/RTPReceiver.cpp	/^RTPReceiver::RTPReceiver($/;"	f	class:android::RTPReceiver
+RTPReceiver	lib/rtp/RTPReceiver.h	/^struct RTPReceiver : public RTPBase, public AHandler {$/;"	s	namespace:android
+RTPSender	lib/rtp/RTPSender.cpp	/^RTPSender::RTPSender($/;"	f	class:android::RTPSender
+RTPSender	lib/rtp/RTPSender.h	/^struct RTPSender : public RTPBase, public AHandler {$/;"	s	namespace:android
+RTP_ASSEMBLER_H_	lib/rtp/RTPAssembler.h	19;"	d
+RTP_BASE_H_	lib/rtp/RTPBase.h	19;"	d
+RTP_RECEIVER_H_	lib/rtp/RTPReceiver.h	19;"	d
+RTP_SENDER_H_	lib/rtp/RTPSender.h	19;"	d
+RarpImpl	src/com/lc/wifidisplaysink/RarpImpl.java	/^public class RarpImpl {$/;"	c
+RemoteDisplayClient	lib/wfd.cpp	/^RemoteDisplayClient::RemoteDisplayClient()$/;"	f	class:android::RemoteDisplayClient
+RemoteDisplayClient	lib/wfd.cpp	/^struct RemoteDisplayClient : public BnRemoteDisplayClient {$/;"	s	namespace:android	file:
+ResolutionType	lib/VideoFormats.h	/^    enum ResolutionType {$/;"	g	struct:android::VideoFormats
+ResponseID	lib/sink/WifiDisplaySink.h	/^    struct ResponseID {$/;"	s	struct:android::WifiDisplaySink
+SNTPClient	lib/SNTPClient.cpp	/^SNTPClient::SNTPClient() {$/;"	f	class:android::SNTPClient
+SNTPClient	lib/SNTPClient.h	/^struct SNTPClient {$/;"	s	namespace:android
+SNTP_CLIENT_H_	lib/SNTPClient.h	19;"	d
+SOURCE_ADDR	src/com/lc/wifidisplaysink/WifiDisplaySinkConstants.java	/^    public static final String SOURCE_ADDR = "source_addr";$/;"	f	class:WifiDisplaySinkConstants
+SOURCE_PORT	src/com/lc/wifidisplaysink/WifiDisplaySinkConstants.java	/^    public static final String SOURCE_PORT = "source_port";$/;"	f	class:WifiDisplaySinkConstants
+STATUS_ARRIVED_LATE	lib/rtp/RTPReceiver.cpp	/^        STATUS_ARRIVED_LATE             = 4,$/;"	e	enum:android::RTPReceiver::Source::StatusBits	file:
+STATUS_DECLARED_LOST	lib/rtp/RTPReceiver.cpp	/^        STATUS_DECLARED_LOST            = 1,$/;"	e	enum:android::RTPReceiver::Source::StatusBits	file:
+STATUS_REQUESTED_RETRANSMISSION	lib/rtp/RTPReceiver.cpp	/^        STATUS_REQUESTED_RETRANSMISSION = 2,$/;"	e	enum:android::RTPReceiver::Source::StatusBits	file:
+Session	lib/ANetworkSession.cpp	/^ANetworkSession::Session::Session($/;"	f	class:android::ANetworkSession::Session
+Session	lib/ANetworkSession.cpp	/^struct ANetworkSession::Session : public RefBase {$/;"	s	class:android::ANetworkSession	file:
+SimplePacketSource	lib/rtptest.cpp	/^    SimplePacketSource()$/;"	f	struct:android::SimplePacketSource
+SimplePacketSource	lib/rtptest.cpp	/^struct SimplePacketSource : public PacketSource {$/;"	s	namespace:android	file:
+Source	lib/rtp/RTPReceiver.cpp	/^RTPReceiver::Source::Source(RTPReceiver *receiver, uint32_t ssrc)$/;"	f	class:android::RTPReceiver::Source
+Source	lib/rtp/RTPReceiver.cpp	/^struct RTPReceiver::Source : public AHandler {$/;"	s	class:android::RTPReceiver	file:
+State	lib/ANetworkSession.cpp	/^    enum State {$/;"	g	struct:android::ANetworkSession::Session	file:
+State	lib/sink/WifiDisplaySink.h	/^    enum State {$/;"	g	struct:android::WifiDisplaySink
+StatusBits	lib/rtp/RTPReceiver.cpp	/^    enum StatusBits {$/;"	g	struct:android::RTPReceiver::Source	file:
+StreamSource	lib/sink/TunnelRenderer.cpp	/^TunnelRenderer::StreamSource::StreamSource(TunnelRenderer *owner)$/;"	f	class:android::TunnelRenderer::StreamSource
+StreamSource	lib/sink/TunnelRenderer.cpp	/^struct TunnelRenderer::StreamSource : public BnStreamSource {$/;"	s	class:android::TunnelRenderer	file:
+TAG	src/com/lc/wifidisplaysink/HIDLauncher.java	/^    private static final String TAG = "HIDLauncher";$/;"	f	class:HIDLauncher	file:
+TAG	src/com/lc/wifidisplaysink/HidDeviceActivity.java	/^    private static final String TAG = "HidDeviceActivity";$/;"	f	class:HidDeviceActivity	file:
+TAG	src/com/lc/wifidisplaysink/HidDeviceAdapterService.java	/^    private static final String TAG = "HidDeviceAdapterService";$/;"	f	class:HidDeviceAdapterService	file:
+TAG	src/com/lc/wifidisplaysink/RarpImpl.java	/^    private String TAG = "RarpImpl";$/;"	f	class:RarpImpl	file:
+TAG	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    private static final String TAG = "WaitingConnectionActivity";$/;"	f	class:WaitingConnectionActivity	file:
+TAG	src/com/lc/wifidisplaysink/WifiDisplaySink.java	/^    private final static String TAG = "WifiDisplaySinkJ";$/;"	f	class:WifiDisplaySink	file:
+TAG	src/com/lc/wifidisplaysink/WifiDisplaySinkActivity.java	/^    private final String TAG = "WifiDisplaySinkActivity";$/;"	f	class:WifiDisplaySinkActivity	file:
+TAG	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    private static final String TAG = "WifiDisplaySinkView";$/;"	f	class:WifiDisplaySinkView	file:
+TIME_SYNCER_H_	lib/TimeSyncer.h	19;"	d
+TRACK_PACKET_LOSS	lib/rtp/RTPReceiver.cpp	33;"	d	file:
+TRANSPORT_NONE	lib/rtp/RTPBase.h	/^        TRANSPORT_NONE,$/;"	e	enum:android::RTPBase::TransportMode
+TRANSPORT_TCP	lib/rtp/RTPBase.h	/^        TRANSPORT_TCP,$/;"	e	enum:android::RTPBase::TransportMode
+TRANSPORT_TCP_INTERLEAVED	lib/rtp/RTPBase.h	/^        TRANSPORT_TCP_INTERLEAVED,$/;"	e	enum:android::RTPBase::TransportMode
+TRANSPORT_UDP	lib/rtp/RTPBase.h	/^        TRANSPORT_UDP,$/;"	e	enum:android::RTPBase::TransportMode
+TRANSPORT_UNDEFINED	lib/rtp/RTPBase.h	/^        TRANSPORT_UNDEFINED,$/;"	e	enum:android::RTPBase::TransportMode
+TSAssembler	lib/rtp/RTPAssembler.cpp	/^RTPReceiver::TSAssembler::TSAssembler(const sp<AMessage> &notify)$/;"	f	class:android::RTPReceiver::TSAssembler
+TSAssembler	lib/rtp/RTPAssembler.h	/^struct RTPReceiver::TSAssembler : public RTPReceiver::Assembler {$/;"	s	class:android::RTPReceiver
+TestHandler	lib/nettest.cpp	/^TestHandler::TestHandler(const sp<ANetworkSession> &netSession)$/;"	f	class:android::TestHandler
+TestHandler	lib/nettest.cpp	/^struct TestHandler : public AHandler {$/;"	s	namespace:android	file:
+TestHandler	lib/rtptest.cpp	/^TestHandler::TestHandler(const sp<ANetworkSession> &netSession)$/;"	f	class:android::TestHandler
+TestHandler	lib/rtptest.cpp	/^struct TestHandler : public AHandler {$/;"	s	namespace:android	file:
+TimeInfo	lib/TimeSyncer.h	/^    struct TimeInfo {$/;"	s	struct:android::TimeSyncer
+TimeSyncer	lib/TimeSyncer.cpp	/^TimeSyncer::TimeSyncer($/;"	f	class:android::TimeSyncer
+TimeSyncer	lib/TimeSyncer.h	/^struct TimeSyncer : public AHandler {$/;"	s	namespace:android
+TrackInfo	lib/MediaReceiver.h	/^    struct TrackInfo {$/;"	s	struct:android::MediaReceiver
+TransportMode	lib/rtp/RTPBase.h	/^    enum TransportMode {$/;"	g	struct:android::RTPBase
+TunnelRenderer	lib/sink/TunnelRenderer.cpp	/^TunnelRenderer::TunnelRenderer($/;"	f	class:android::TunnelRenderer
+U16_AT	lib/ANetworkSession.cpp	/^static uint16_t U16_AT(const uint8_t *ptr) {$/;"	f	namespace:android
+U32_AT	lib/ANetworkSession.cpp	/^static uint32_t U32_AT(const uint8_t *ptr) {$/;"	f	namespace:android
+U64_AT	lib/ANetworkSession.cpp	/^static uint64_t U64_AT(const uint8_t *ptr) {$/;"	f	namespace:android
+UNDEFINED	lib/sink/WifiDisplaySink.h	/^        UNDEFINED,$/;"	e	enum:android::WifiDisplaySink::State
+VIDEO_FORMATS_H_	lib/VideoFormats.h	19;"	d
+VideoFormats	lib/VideoFormats.cpp	/^VideoFormats::VideoFormats() {$/;"	f	class:android::VideoFormats
+VideoFormats	lib/VideoFormats.h	/^struct VideoFormats {$/;"	s	namespace:android
+WFD_ERROR	lib/sink/WifiDisplaySink.h	/^    WFD_ERROR            = 100,$/;"	e	enum:android::wfd_event_type
+WFD_ERROR	src/com/lc/wifidisplaysink/WifiDisplaySink.java	/^    private static final int WFD_ERROR = 100;$/;"	f	class:WifiDisplaySink	file:
+WFD_ERROR_SERVER_DIED	lib/sink/WifiDisplaySink.h	/^    WFD_ERROR_SERVER_DIED = 100,$/;"	e	enum:android::wfd_error_type
+WFD_ERROR_SERVER_DIED	src/com/lc/wifidisplaysink/WifiDisplaySink.java	/^    public static final int WFD_ERROR_SERVER_DIED = 100;$/;"	f	class:WifiDisplaySink
+WFD_ERROR_UNKNOWN	lib/sink/WifiDisplaySink.h	/^    WFD_ERROR_UNKNOWN = 1,$/;"	e	enum:android::wfd_error_type
+WFD_ERROR_UNKNOWN	src/com/lc/wifidisplaysink/WifiDisplaySink.java	/^    public static final int WFD_ERROR_UNKNOWN = 1;$/;"	f	class:WifiDisplaySink
+WFD_INFO	lib/sink/WifiDisplaySink.h	/^    WFD_INFO              = 200,$/;"	e	enum:android::wfd_event_type
+WFD_INFO	src/com/lc/wifidisplaysink/WifiDisplaySink.java	/^    private static final int WFD_INFO = 200;$/;"	f	class:WifiDisplaySink	file:
+WFD_INFO_RTSP_TEARDOWN	lib/sink/WifiDisplaySink.h	/^    WFD_INFO_RTSP_TEARDOWN = 700,$/;"	e	enum:android::wfd_info_type
+WFD_INFO_RTSP_TEARDOWN	src/com/lc/wifidisplaysink/WifiDisplaySink.java	/^    public static final int WFD_INFO_RTSP_TEARDOWN = 700;$/;"	f	class:WifiDisplaySink
+WFD_INFO_UNKNOWN	lib/sink/WifiDisplaySink.h	/^    WFD_INFO_UNKNOWN = 1,$/;"	e	enum:android::wfd_info_type
+WFD_INFO_UNKNOWN	src/com/lc/wifidisplaysink/WifiDisplaySink.java	/^    public static final int WFD_INFO_UNKNOWN = 1;$/;"	f	class:WifiDisplaySink
+WFD_NOP	lib/sink/WifiDisplaySink.h	/^    WFD_NOP               = 0, \/\/ interface test message$/;"	e	enum:android::wfd_event_type
+WFD_NOP	src/com/lc/wifidisplaysink/WifiDisplaySink.java	/^    private static final int WFD_NOP = 0; \/\/ interface test message$/;"	f	class:WifiDisplaySink	file:
+WIFI_DISPLAY_SINK_H_	lib/sink/WifiDisplaySink.h	19;"	d
+WaitingConnectionActivity	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^public class WaitingConnectionActivity extends Activity {$/;"	c
+WfdNativeContext	jni/JniWifiDisplaySink.cpp	/^    WfdNativeContext() {$/;"	f	struct:WfdNativeContext
+WfdNativeContext	jni/JniWifiDisplaySink.cpp	/^struct WfdNativeContext: public RefBase {$/;"	s	file:
+WfdSinkListener	lib/sink/WifiDisplaySink.h	/^class WfdSinkListener: virtual public RefBase$/;"	c	namespace:android
+WiFiDirectBroadcastReceiver	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    public class WiFiDirectBroadcastReceiver extends BroadcastReceiver {$/;"	c	class:WaitingConnectionActivity
+WifiDisplaySink	lib/sink/WifiDisplaySink.cpp	/^WifiDisplaySink::WifiDisplaySink($/;"	f	class:android::WifiDisplaySink
+WifiDisplaySink	lib/sink/WifiDisplaySink.h	/^struct WifiDisplaySink : public AHandler {$/;"	s	namespace:android
+WifiDisplaySink	src/com/lc/wifidisplaysink/WifiDisplaySink.java	/^    public WifiDisplaySink() {$/;"	m	class:WifiDisplaySink
+WifiDisplaySink	src/com/lc/wifidisplaysink/WifiDisplaySink.java	/^public class WifiDisplaySink{$/;"	c
+WifiDisplaySinkActivity	src/com/lc/wifidisplaysink/WifiDisplaySinkActivity.java	/^public class WifiDisplaySinkActivity extends Activity {$/;"	c
+WifiDisplaySinkConstants	src/com/lc/wifidisplaysink/WifiDisplaySinkConstants.java	/^public class WifiDisplaySinkConstants {$/;"	c
+WifiDisplaySinkUtils	src/com/lc/wifidisplaysink/WifiDisplaySinkUtils.java	/^public class WifiDisplaySinkUtils {$/;"	c
+WifiDisplaySinkView	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    public WifiDisplaySinkView(Context context) {$/;"	m	class:WifiDisplaySinkView
+WifiDisplaySinkView	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    public WifiDisplaySinkView(Context context, AttributeSet attrs) {$/;"	m	class:WifiDisplaySinkView
+WifiDisplaySinkView	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    public WifiDisplaySinkView(Context context, AttributeSet attrs, int defStyle) {$/;"	m	class:WifiDisplaySinkView
+WifiDisplaySinkView	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^public class WifiDisplaySinkView extends SurfaceView {$/;"	c
+addReportBlock	lib/rtp/RTPReceiver.cpp	/^void RTPReceiver::Source::addReportBlock($/;"	f	class:android::RTPReceiver::Source
+addSDES	lib/rtp/RTPReceiver.cpp	/^void RTPReceiver::addSDES(const sp<ABuffer> &buffer) {$/;"	f	class:android::RTPReceiver
+addSingleNALUnit	lib/rtp/RTPAssembler.cpp	/^void RTPReceiver::H264Assembler::addSingleNALUnit(const sp<ABuffer> &packet) {$/;"	f	class:android::RTPReceiver::H264Assembler
+addSingleTimeAggregationPacket	lib/rtp/RTPAssembler.cpp	/^status_t RTPReceiver::H264Assembler::addSingleTimeAggregationPacket($/;"	f	class:android::RTPReceiver::H264Assembler
+addTrack	lib/MediaReceiver.cpp	/^ssize_t MediaReceiver::addTrack($/;"	f	class:android::MediaReceiver
+adjustTimeUs	lib/SNTPClient.cpp	/^int64_t SNTPClient::adjustTimeUs(int64_t timeUs) const {$/;"	f	class:android::SNTPClient
+android	lib/ANetworkSession.cpp	/^namespace android {$/;"	n	file:
+android	lib/ANetworkSession.h	/^namespace android {$/;"	n
+android	lib/MediaReceiver.cpp	/^namespace android {$/;"	n	file:
+android	lib/MediaReceiver.h	/^namespace android {$/;"	n
+android	lib/Parameters.cpp	/^namespace android {$/;"	n	file:
+android	lib/Parameters.h	/^namespace android {$/;"	n
+android	lib/SNTPClient.cpp	/^namespace android {$/;"	n	file:
+android	lib/SNTPClient.h	/^namespace android {$/;"	n
+android	lib/TimeSyncer.cpp	/^namespace android {$/;"	n	file:
+android	lib/TimeSyncer.h	/^namespace android {$/;"	n
+android	lib/VideoFormats.cpp	/^namespace android {$/;"	n	file:
+android	lib/VideoFormats.h	/^namespace android {$/;"	n
+android	lib/nettest.cpp	/^namespace android {$/;"	n	file:
+android	lib/rtp/RTPAssembler.cpp	/^namespace android {$/;"	n	file:
+android	lib/rtp/RTPAssembler.h	/^namespace android {$/;"	n
+android	lib/rtp/RTPBase.h	/^namespace android {$/;"	n
+android	lib/rtp/RTPReceiver.cpp	/^namespace android {$/;"	n	file:
+android	lib/rtp/RTPReceiver.h	/^namespace android {$/;"	n
+android	lib/rtp/RTPSender.cpp	/^namespace android {$/;"	n	file:
+android	lib/rtp/RTPSender.h	/^namespace android {$/;"	n
+android	lib/rtptest.cpp	/^namespace android {$/;"	n	file:
+android	lib/sink/DirectRenderer.cpp	/^namespace android {$/;"	n	file:
+android	lib/sink/DirectRenderer.h	/^namespace android {$/;"	n
+android	lib/sink/TunnelRenderer.cpp	/^namespace android {$/;"	n	file:
+android	lib/sink/WifiDisplaySink.cpp	/^namespace android {$/;"	n	file:
+android	lib/sink/WifiDisplaySink.h	/^namespace android {$/;"	n
+android	lib/udptest.cpp	/^namespace android {$/;"	n	file:
+android	lib/wfd.cpp	/^namespace android {$/;"	n	file:
+appendToAccumulator	lib/rtp/RTPAssembler.cpp	/^void RTPReceiver::H264Assembler::appendToAccumulator($/;"	f	class:android::RTPReceiver::H264Assembler
+cancelTimeout	lib/TimeSyncer.cpp	/^void TimeSyncer::cancelTimeout() {$/;"	f	class:android::TimeSyncer
+cancelTimers	lib/rtp/RTPReceiver.cpp	/^void RTPReceiver::Source::cancelTimers() {$/;"	f	class:android::RTPReceiver::Source
+checkXY	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    boolean checkXY(int x, int y) {$/;"	m	class:WifiDisplaySinkView
+clearAccumulator	lib/rtp/RTPAssembler.cpp	/^void RTPReceiver::H264Assembler::clearAccumulator() {$/;"	f	class:android::RTPReceiver::H264Assembler
+com.lc.wifidisplaysink	src/com/lc/wifidisplaysink/HIDLauncher.java	/^package com.lc.wifidisplaysink;$/;"	p
+com.lc.wifidisplaysink	src/com/lc/wifidisplaysink/HidDeviceActivity.java	/^package com.lc.wifidisplaysink;$/;"	p
+com.lc.wifidisplaysink	src/com/lc/wifidisplaysink/HidDeviceAdapterService.java	/^package com.lc.wifidisplaysink;$/;"	p
+com.lc.wifidisplaysink	src/com/lc/wifidisplaysink/RarpImpl.java	/^package com.lc.wifidisplaysink;$/;"	p
+com.lc.wifidisplaysink	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^package com.lc.wifidisplaysink;$/;"	p
+com.lc.wifidisplaysink	src/com/lc/wifidisplaysink/WifiDisplaySink.java	/^package com.lc.wifidisplaysink;$/;"	p
+com.lc.wifidisplaysink	src/com/lc/wifidisplaysink/WifiDisplaySinkActivity.java	/^package com.lc.wifidisplaysink;$/;"	p
+com.lc.wifidisplaysink	src/com/lc/wifidisplaysink/WifiDisplaySinkConstants.java	/^package com.lc.wifidisplaysink;$/;"	p
+com.lc.wifidisplaysink	src/com/lc/wifidisplaysink/WifiDisplaySinkUtils.java	/^package com.lc.wifidisplaysink;$/;"	p
+com.lc.wifidisplaysink	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^package com.lc.wifidisplaysink;$/;"	p
+com_lc_wifidisplaysink_WifiDisplaySink_nativeInvokeSink	jni/JniWifiDisplaySink.cpp	/^com_lc_wifidisplaysink_WifiDisplaySink_nativeInvokeSink(JNIEnv* env, jobject thiz, jstring ipaddr, jint port) {$/;"	f	file:
+com_lc_wifidisplaysink_WifiDisplaySink_native_init	jni/JniWifiDisplaySink.cpp	/^com_lc_wifidisplaysink_WifiDisplaySink_native_init(JNIEnv *env) {$/;"	f	file:
+com_lc_wifidisplaysink_WifiDisplaySink_native_setVideoSurface	jni/JniWifiDisplaySink.cpp	/^com_lc_wifidisplaysink_WifiDisplaySink_native_setVideoSurface(JNIEnv *env, jobject thiz, jobject jsurface)$/;"	f	file:
+com_lc_wifidisplaysink_WifiDisplaySink_native_setup	jni/JniWifiDisplaySink.cpp	/^com_lc_wifidisplaysink_WifiDisplaySink_native_setup(JNIEnv *env, jobject thiz, jobject weak_this, jint special, jint is_N10)$/;"	f	file:
+config_t	lib/VideoFormats.h	/^    struct config_t {$/;"	s	struct:android::VideoFormats
+configureTransport	lib/sink/WifiDisplaySink.cpp	/^status_t WifiDisplaySink::configureTransport(const sp<ParsedMessage> &msg) {$/;"	f	class:android::WifiDisplaySink
+connect	lib/nettest.cpp	/^void TestHandler::connect(const char *host, int32_t port) {$/;"	f	class:android::TestHandler
+connect	lib/rtp/RTPReceiver.cpp	/^status_t RTPReceiver::connect($/;"	f	class:android::RTPReceiver
+connect	lib/rtptest.cpp	/^void TestHandler::connect(const char *host, int32_t port) {$/;"	f	class:android::TestHandler
+connect	src/com/lc/wifidisplaysink/HidDeviceActivity.java	/^    private void connect(BluetoothDevice device) {$/;"	m	class:HidDeviceActivity	file:
+connectTrack	lib/MediaReceiver.cpp	/^status_t MediaReceiver::connectTrack($/;"	f	class:android::MediaReceiver
+connectUDPSession	lib/ANetworkSession.cpp	/^status_t ANetworkSession::connectUDPSession($/;"	f	class:android::ANetworkSession
+context	jni/JniWifiDisplaySink.cpp	/^    jfieldID    context;$/;"	m	struct:fields_t	file:
+create	src/com/lc/wifidisplaysink/WifiDisplaySink.java	/^    public static WifiDisplaySink create(Context context) {$/;"	m	class:WifiDisplaySink
+createClientOrServer	lib/ANetworkSession.cpp	/^status_t ANetworkSession::createClientOrServer($/;"	f	class:android::ANetworkSession
+createFileSource	lib/wfd.cpp	/^static void createFileSource($/;"	f	namespace:android
+createMouseReport	src/com/lc/wifidisplaysink/HidDeviceActivity.java	/^    public byte[] createMouseReport (int btn, int delta_x, int delta_y, int delta_wheel)$/;"	m	class:HidDeviceActivity
+createMouseReport	src/com/lc/wifidisplaysink/HidDeviceAdapterService.java	/^     private byte[] createMouseReport (int btn, int delta_x, int delta_y, int delta_wheel)$/;"	m	class:HidDeviceAdapterService	file:
+createRTSPClient	lib/ANetworkSession.cpp	/^status_t ANetworkSession::createRTSPClient($/;"	f	class:android::ANetworkSession
+createRTSPServer	lib/ANetworkSession.cpp	/^status_t ANetworkSession::createRTSPServer($/;"	f	class:android::ANetworkSession
+createSdpRecord	src/com/lc/wifidisplaysink/HidDeviceActivity.java	/^    private void createSdpRecord() {$/;"	m	class:HidDeviceActivity	file:
+createSource	lib/wfd.cpp	/^static void createSource(const AString &addr, int32_t port) {$/;"	f	namespace:android
+createTCPDatagramSession	lib/ANetworkSession.cpp	/^status_t ANetworkSession::createTCPDatagramSession($/;"	f	class:android::ANetworkSession
+createUDPSession	lib/ANetworkSession.cpp	/^status_t ANetworkSession::createUDPSession($/;"	f	class:android::ANetworkSession
+delayedInvokeSink	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    private void delayedInvokeSink(final String ip, final int port, int delaySec) {$/;"	m	class:WaitingConnectionActivity	file:
+dequeueBuffer	lib/sink/TunnelRenderer.cpp	/^sp<ABuffer> TunnelRenderer::dequeueBuffer() {$/;"	f	class:android::TunnelRenderer
+dequeueMore	lib/rtp/RTPReceiver.cpp	/^void RTPReceiver::Source::dequeueMore() {$/;"	f	class:android::RTPReceiver::Source
+destroyPlayer	lib/sink/TunnelRenderer.cpp	/^void TunnelRenderer::destroyPlayer() {$/;"	f	class:android::TunnelRenderer
+destroySession	lib/ANetworkSession.cpp	/^status_t ANetworkSession::destroySession(int32_t sessionID) {$/;"	f	class:android::ANetworkSession
+disable	src/com/lc/wifidisplaysink/HidDeviceActivity.java	/^    private void disable() {$/;"	m	class:HidDeviceActivity	file:
+disableAll	lib/VideoFormats.cpp	/^void VideoFormats::disableAll() {$/;"	f	class:android::VideoFormats
+disableHID	src/com/lc/wifidisplaysink/HidDeviceAdapterService.java	/^    private void disableHID() {$/;"	m	class:HidDeviceAdapterService	file:
+disconnect	src/com/lc/wifidisplaysink/HidDeviceActivity.java	/^    private void disconnect() {$/;"	m	class:HidDeviceActivity	file:
+doSomeWork	lib/sink/TunnelRenderer.cpp	/^void TunnelRenderer::StreamSource::doSomeWork() {$/;"	f	class:android::TunnelRenderer::StreamSource
+drainPackets	lib/MediaReceiver.cpp	/^void MediaReceiver::drainPackets($/;"	f	class:android::MediaReceiver
+dumpDelay	lib/nettest.cpp	/^void TestHandler::dumpDelay(int32_t counter, int64_t delayMs) {$/;"	f	class:android::TestHandler
+dumpDelay	lib/rtptest.cpp	/^static void dumpDelay(int64_t delayMs) {$/;"	f	namespace:android
+dumpDelay	lib/sink/WifiDisplaySink.cpp	/^void WifiDisplaySink::dumpDelay(size_t trackIndex, int64_t timeUs) {$/;"	f	class:android::WifiDisplaySink
+dumpFragmentStats	lib/ANetworkSession.cpp	/^void ANetworkSession::Session::dumpFragmentStats(const Fragment &frag) {$/;"	f	class:android::ANetworkSession::Session
+enable	src/com/lc/wifidisplaysink/HidDeviceActivity.java	/^    private void enable() {$/;"	m	class:HidDeviceActivity	file:
+enableAll	lib/VideoFormats.cpp	/^void VideoFormats::enableAll() {$/;"	f	class:android::VideoFormats
+enableBluetooth	src/com/lc/wifidisplaysink/HidDeviceAdapterService.java	/^    private void enableBluetooth() {$/;"	m	class:HidDeviceAdapterService	file:
+enableHID	src/com/lc/wifidisplaysink/HidDeviceAdapterService.java	/^    private void enableHID() {$/;"	m	class:HidDeviceAdapterService	file:
+enableResolutionUpto	lib/VideoFormats.cpp	/^void VideoFormats::enableResolutionUpto($/;"	f	class:android::VideoFormats
+execRarp	src/com/lc/wifidisplaysink/RarpImpl.java	/^    public String execRarp(String netIf) {$/;"	m	class:RarpImpl
+fields	jni/JniWifiDisplaySink.cpp	/^static fields_t fields;$/;"	v	file:
+fields_t	jni/JniWifiDisplaySink.cpp	/^struct fields_t {$/;"	s	file:
+findParameter	lib/Parameters.cpp	/^bool Parameters::findParameter(const char *name, AString *value) const {$/;"	f	class:android::Parameters
+flags	lib/sink/TunnelRenderer.cpp	/^uint32_t TunnelRenderer::StreamSource::flags() const {$/;"	f	class:android::TunnelRenderer::StreamSource
+flushAccessUnit	lib/rtp/RTPAssembler.cpp	/^void RTPReceiver::H264Assembler::flushAccessUnit() {$/;"	f	class:android::RTPReceiver::H264Assembler
+framesPerSecond	lib/VideoFormats.h	/^        size_t width, height, framesPerSecond;$/;"	m	struct:android::VideoFormats::config_t
+gMethods	jni/JniWifiDisplaySink.cpp	/^static JNINativeMethod gMethods[] = {$/;"	v	file:
+getArpTable	src/com/lc/wifidisplaysink/RarpImpl.java	/^    public ArrayList<ArpType> getArpTable() {$/;"	m	class:RarpImpl
+getDisplayDimensions	jni/JniWifiDisplaySink.cpp	/^static void getDisplayDimensions(ssize_t *w, ssize_t *h) {$/;"	f	file:
+getFormatSpec	lib/VideoFormats.cpp	/^AString VideoFormats::getFormatSpec(bool forM4Message) const {$/;"	f	class:android::VideoFormats
+getHidDevice	src/com/lc/wifidisplaysink/HidDeviceAdapterService.java	/^    public HidDevice getHidDevice() {$/;"	m	class:HidDeviceAdapterService
+getNativeResolution	lib/VideoFormats.cpp	/^void VideoFormats::getNativeResolution($/;"	f	class:android::VideoFormats
+getNextAccessUnit	lib/rtptest.cpp	/^    virtual sp<ABuffer> getNextAccessUnit() {$/;"	f	struct:android::MediaPacketSource
+getNextAccessUnit	lib/rtptest.cpp	/^    virtual sp<ABuffer> getNextAccessUnit() {$/;"	f	struct:android::SimplePacketSource
+getNextPacket	lib/rtp/RTPReceiver.cpp	/^sp<ABuffer> RTPReceiver::Source::getNextPacket() {$/;"	f	class:android::RTPReceiver::Source
+getNotificationMessage	lib/ANetworkSession.cpp	/^sp<AMessage> ANetworkSession::Session::getNotificationMessage() const {$/;"	f	class:android::ANetworkSession::Session
+getNowNTP	lib/SNTPClient.cpp	/^uint64_t SNTPClient::getNowNTP() {$/;"	f	class:android::SNTPClient
+getProfileLevel	lib/VideoFormats.cpp	/^void VideoFormats::getProfileLevel($/;"	f	class:android::VideoFormats
+getResolutionType	lib/VideoFormats.cpp	/^bool VideoFormats::getResolutionType($/;"	f	class:android::VideoFormats
+getService	src/com/lc/wifidisplaysink/HidDeviceAdapterService.java	/^        HidDeviceAdapterService getService() {$/;"	m	class:HidDeviceAdapterService.HidDeviceAdapterBinder
+getWfdNativeContext	jni/JniWifiDisplaySink.cpp	/^static WfdNativeContext *getWfdNativeContext(JNIEnv* env, jobject thiz)$/;"	f	file:
+handleMessage	src/com/lc/wifidisplaysink/WifiDisplaySink.java	/^        public void handleMessage(Message msg) {$/;"	m	class:WifiDisplaySink.EventHandler
+height	lib/VideoFormats.h	/^        size_t width, height, framesPerSecond;$/;"	m	struct:android::VideoFormats::config_t
+informSender	lib/MediaReceiver.cpp	/^status_t MediaReceiver::informSender($/;"	f	class:android::MediaReceiver
+informSender	lib/rtp/RTPReceiver.cpp	/^status_t RTPReceiver::informSender(const sp<AMessage> &params) {$/;"	f	class:android::RTPReceiver
+init	lib/sink/DirectRenderer.cpp	/^status_t DirectRenderer::DecoderContext::init($/;"	f	class:android::DirectRenderer::DecoderContext
+initAsync	lib/MediaReceiver.cpp	/^status_t MediaReceiver::initAsync(Mode mode) {$/;"	f	class:android::MediaReceiver
+initAsync	lib/rtp/RTPReceiver.cpp	/^status_t RTPReceiver::initAsync($/;"	f	class:android::RTPReceiver
+initAsync	lib/rtp/RTPSender.cpp	/^status_t RTPSender::initAsync($/;"	f	class:android::RTPSender
+initPlayer	lib/sink/TunnelRenderer.cpp	/^void TunnelRenderer::initPlayer() {$/;"	f	class:android::TunnelRenderer
+initView	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    private void initView() {$/;"	m	class:WifiDisplaySinkView	file:
+interlaced	lib/VideoFormats.h	/^        bool interlaced;$/;"	m	struct:android::VideoFormats::config_t
+internalProcessPacket	lib/rtp/RTPAssembler.cpp	/^status_t RTPReceiver::H264Assembler::internalProcessPacket($/;"	f	class:android::RTPReceiver::H264Assembler
+internalSetFormat	lib/sink/DirectRenderer.cpp	/^void DirectRenderer::internalSetFormat($/;"	f	class:android::DirectRenderer
+interrupt	lib/ANetworkSession.cpp	/^void ANetworkSession::interrupt() {$/;"	f	class:android::ANetworkSession
+invoke	src/com/lc/wifidisplaysink/WifiDisplaySink.java	/^    public void invoke(String ip, int port) {$/;"	m	class:WifiDisplaySink
+invokeSink	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    private void invokeSink(String ip, int port) {$/;"	m	class:WaitingConnectionActivity	file:
+ip	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^        private final String ip;$/;"	f	class:WaitingConnectionActivity.AvoidANRThread	file:
+isHidHostScreenAttempted	src/com/lc/wifidisplaysink/HIDLauncher.java	/^    private boolean isHidHostScreenAttempted;$/;"	f	class:HIDLauncher	file:
+isRTSPServer	lib/ANetworkSession.cpp	/^bool ANetworkSession::Session::isRTSPServer() const {$/;"	f	class:android::ANetworkSession::Session
+isResolutionEnabled	lib/VideoFormats.cpp	/^bool VideoFormats::isResolutionEnabled($/;"	f	class:android::VideoFormats
+isTCPDatagramServer	lib/ANetworkSession.cpp	/^bool ANetworkSession::Session::isTCPDatagramServer() const {$/;"	f	class:android::ANetworkSession::Session
+kBatchDelayUs	lib/TimeSyncer.h	/^    static const int64_t kBatchDelayUs = 60000000ll;  \/\/ every minute$/;"	m	struct:android::TimeSyncer
+kFrameRate	lib/rtptest.cpp	/^        kFrameRate = 30$/;"	e	enum:android::SimplePacketSource::__anon5	file:
+kMaxDropout	lib/rtp/RTPReceiver.cpp	/^    static const uint32_t kMaxDropout = 3000;$/;"	m	struct:android::RTPReceiver::Source	file:
+kMaxHistorySize	lib/rtp/RTPSender.h	/^        kMaxHistorySize              = 1024,$/;"	e	enum:android::RTPSender::__anon25
+kMaxMisorder	lib/rtp/RTPReceiver.cpp	/^    static const uint32_t kMaxMisorder = 100;$/;"	m	struct:android::RTPReceiver::Source	file:
+kMaxNumTSPacketsPerRTPPacket	lib/rtp/RTPSender.h	/^        kMaxNumTSPacketsPerRTPPacket = (kMaxUDPPacketSize - 12) \/ 188,$/;"	e	enum:android::RTPSender::__anon25
+kMaxUDPPacketSize	lib/rtp/RTPBase.h	/^        kMaxUDPPacketSize = 1472,   \/\/ 1472 good, 1473 bad on Android@Home$/;"	e	enum:android::RTPBase::__anon19
+kMaxUDPRetries	lib/ANetworkSession.cpp	/^static const int32_t kMaxUDPRetries = 200;$/;"	m	namespace:android	file:
+kMaxUDPSize	lib/ANetworkSession.cpp	/^static const size_t kMaxUDPSize = 1500;$/;"	m	namespace:android	file:
+kMinSequential	lib/rtp/RTPReceiver.cpp	/^    static const uint32_t kMinSequential = 2;$/;"	m	struct:android::RTPReceiver::Source	file:
+kModeCreateRTSPClient	lib/ANetworkSession.h	/^        kModeCreateRTSPClient,$/;"	e	enum:android::ANetworkSession::Mode
+kModeCreateRTSPServer	lib/ANetworkSession.h	/^        kModeCreateRTSPServer,$/;"	e	enum:android::ANetworkSession::Mode
+kModeCreateTCPDatagramSessionActive	lib/ANetworkSession.h	/^        kModeCreateTCPDatagramSessionActive,$/;"	e	enum:android::ANetworkSession::Mode
+kModeCreateTCPDatagramSessionPassive	lib/ANetworkSession.h	/^        kModeCreateTCPDatagramSessionPassive,$/;"	e	enum:android::ANetworkSession::Mode
+kModeCreateUDPSession	lib/ANetworkSession.h	/^        kModeCreateUDPSession,$/;"	e	enum:android::ANetworkSession::Mode
+kNTPModeClient	lib/SNTPClient.h	/^        kNTPModeClient = 3,$/;"	e	enum:android::SNTPClient::__anon4
+kNTPOriginateTimeOffset	lib/SNTPClient.h	/^        kNTPOriginateTimeOffset = 24,$/;"	e	enum:android::SNTPClient::__anon4
+kNTPPacketSize	lib/SNTPClient.h	/^        kNTPPacketSize = 48,$/;"	e	enum:android::SNTPClient::__anon4
+kNTPPort	lib/SNTPClient.h	/^        kNTPPort = 123,$/;"	e	enum:android::SNTPClient::__anon4
+kNTPReceiveTimeOffset	lib/SNTPClient.h	/^        kNTPReceiveTimeOffset = 32,$/;"	e	enum:android::SNTPClient::__anon4
+kNTPTransmitTimeOffset	lib/SNTPClient.h	/^        kNTPTransmitTimeOffset = 40,$/;"	e	enum:android::SNTPClient::__anon4
+kNTPVersion	lib/SNTPClient.h	/^        kNTPVersion = 3,$/;"	e	enum:android::SNTPClient::__anon4
+kNumLevelTypes	lib/VideoFormats.h	/^        kNumLevelTypes,$/;"	e	enum:android::VideoFormats::LevelType
+kNumPacketsPerBatch	lib/TimeSyncer.h	/^        kNumPacketsPerBatch = 30,$/;"	e	enum:android::TimeSyncer::__anon17
+kNumProfileTypes	lib/VideoFormats.h	/^        kNumProfileTypes,$/;"	e	enum:android::VideoFormats::ProfileType
+kNumResolutionTypes	lib/VideoFormats.h	/^        kNumResolutionTypes,$/;"	e	enum:android::VideoFormats::ResolutionType
+kPacketLostAfterUs	lib/rtp/RTPReceiver.h	/^        kPacketLostAfterUs              = 100000,$/;"	e	enum:android::RTPReceiver::__anon22
+kPacketizationMode	lib/rtptest.cpp	/^    static const RTPBase::PacketizationMode kPacketizationMode$/;"	m	struct:android::TestHandler	file:
+kRTCPMode	lib/rtptest.cpp	/^    static const RTPBase::TransportMode kRTCPMode = RTPBase::TRANSPORT_NONE;$/;"	m	struct:android::TestHandler	file:
+kRTCPMode	lib/rtptest.cpp	/^    static const RTPBase::TransportMode kRTCPMode = RTPBase::TRANSPORT_UDP;$/;"	m	struct:android::TestHandler	file:
+kRTPMode	lib/rtptest.cpp	/^    static const RTPBase::TransportMode kRTPMode = RTPBase::TRANSPORT_TCP;$/;"	m	struct:android::TestHandler	file:
+kRTPMode	lib/rtptest.cpp	/^    static const RTPBase::TransportMode kRTPMode = RTPBase::TRANSPORT_UDP;$/;"	m	struct:android::TestHandler	file:
+kRTPSeqMod	lib/rtp/RTPReceiver.cpp	/^    static const uint32_t kRTPSeqMod = 1u << 16;$/;"	m	struct:android::RTPReceiver::Source	file:
+kReportIntervalUs	lib/rtp/RTPReceiver.cpp	/^    static const int64_t kReportIntervalUs = 10000000ll;$/;"	m	struct:android::RTPReceiver::Source	file:
+kReportLatenessEveryUs	lib/sink/WifiDisplaySink.h	/^    static const int64_t kReportLatenessEveryUs = 1000000ll;$/;"	m	struct:android::WifiDisplaySink
+kRequestRetransmissionAfterUs	lib/rtp/RTPReceiver.h	/^        kRequestRetransmissionAfterUs   = -1,$/;"	e	enum:android::RTPReceiver::__anon22
+kSourceID	lib/rtp/RTPReceiver.h	/^        kSourceID                       = 0xdeadbeef,$/;"	e	enum:android::RTPReceiver::__anon22
+kSourceID	lib/rtp/RTPSender.h	/^        kSourceID                    = 0xdeadbeef,$/;"	e	enum:android::RTPSender::__anon25
+kTimeSyncerPort	lib/nettest.cpp	/^        kTimeSyncerPort = 8123,$/;"	e	enum:android::TestHandler::__anon1	file:
+kTimeoutDelayUs	lib/TimeSyncer.h	/^    static const int64_t kTimeoutDelayUs = 500000ll;$/;"	m	struct:android::TimeSyncer
+kWhatAccessUnit	lib/MediaReceiver.h	/^        kWhatAccessUnit,$/;"	e	enum:android::MediaReceiver::__anon7
+kWhatAccessUnit	lib/rtp/RTPReceiver.h	/^        kWhatAccessUnit,$/;"	e	enum:android::RTPReceiver::__anon20
+kWhatBinaryData	lib/ANetworkSession.h	/^        kWhatBinaryData,$/;"	e	enum:android::ANetworkSession::NotificationReason
+kWhatClientConnected	lib/ANetworkSession.h	/^        kWhatClientConnected,$/;"	e	enum:android::ANetworkSession::NotificationReason
+kWhatConnect	lib/nettest.cpp	/^        kWhatConnect,$/;"	e	enum:android::TestHandler::__anon2	file:
+kWhatConnect	lib/rtptest.cpp	/^        kWhatConnect,$/;"	e	enum:android::TestHandler::__anon6	file:
+kWhatConnected	lib/ANetworkSession.h	/^        kWhatConnected,$/;"	e	enum:android::ANetworkSession::NotificationReason
+kWhatData	lib/ANetworkSession.h	/^        kWhatData,$/;"	e	enum:android::ANetworkSession::NotificationReason
+kWhatDatagram	lib/ANetworkSession.h	/^        kWhatDatagram,$/;"	e	enum:android::ANetworkSession::NotificationReason
+kWhatDeclareLost	lib/rtp/RTPReceiver.cpp	/^        kWhatDeclareLost,$/;"	e	enum:android::RTPReceiver::Source::__anon18	file:
+kWhatDecoderNotify	lib/sink/DirectRenderer.cpp	/^        kWhatDecoderNotify,$/;"	e	enum:android::DirectRenderer::DecoderContext::__anon10	file:
+kWhatDecoderNotify	lib/sink/DirectRenderer.h	/^        kWhatDecoderNotify,$/;"	e	enum:android::DirectRenderer::__anon14
+kWhatDisconnected	lib/sink/WifiDisplaySink.h	/^        kWhatDisconnected,$/;"	e	enum:android::WifiDisplaySink::__anon12
+kWhatError	lib/ANetworkSession.h	/^        kWhatError,$/;"	e	enum:android::ANetworkSession::NotificationReason
+kWhatError	lib/MediaReceiver.h	/^        kWhatError,$/;"	e	enum:android::MediaReceiver::__anon7
+kWhatError	lib/TimeSyncer.h	/^        kWhatError,$/;"	e	enum:android::TimeSyncer::__anon15
+kWhatError	lib/rtp/RTPReceiver.h	/^        kWhatError,$/;"	e	enum:android::RTPReceiver::__anon20
+kWhatError	lib/rtp/RTPSender.h	/^        kWhatError,$/;"	e	enum:android::RTPSender::__anon23
+kWhatInformSender	lib/rtp/RTPSender.h	/^        kWhatInformSender,$/;"	e	enum:android::RTPSender::__anon23
+kWhatInit	lib/MediaReceiver.h	/^        kWhatInit,$/;"	e	enum:android::MediaReceiver::__anon8
+kWhatInitDone	lib/MediaReceiver.h	/^        kWhatInitDone,$/;"	e	enum:android::MediaReceiver::__anon7
+kWhatInitDone	lib/rtp/RTPReceiver.h	/^        kWhatInitDone,$/;"	e	enum:android::RTPReceiver::__anon20
+kWhatInitDone	lib/rtp/RTPSender.h	/^        kWhatInitDone,$/;"	e	enum:android::RTPSender::__anon23
+kWhatListen	lib/nettest.cpp	/^        kWhatListen,$/;"	e	enum:android::TestHandler::__anon2	file:
+kWhatListen	lib/rtptest.cpp	/^        kWhatListen,$/;"	e	enum:android::TestHandler::__anon6	file:
+kWhatMediaReceiverNotify	lib/sink/WifiDisplaySink.h	/^        kWhatMediaReceiverNotify,$/;"	e	enum:android::WifiDisplaySink::__anon13
+kWhatNetNotify	lib/nettest.cpp	/^        kWhatNetNotify,$/;"	e	enum:android::TestHandler::__anon2	file:
+kWhatNetworkStall	lib/ANetworkSession.h	/^        kWhatNetworkStall,$/;"	e	enum:android::ANetworkSession::NotificationReason
+kWhatNetworkStall	lib/rtp/RTPSender.h	/^        kWhatNetworkStall,$/;"	e	enum:android::RTPSender::__anon23
+kWhatOutputBufferReady	lib/sink/DirectRenderer.cpp	/^        kWhatOutputBufferReady,$/;"	e	enum:android::DirectRenderer::DecoderContext::__anon9	file:
+kWhatPacketLost	lib/MediaReceiver.h	/^        kWhatPacketLost,$/;"	e	enum:android::MediaReceiver::__anon7
+kWhatPacketLost	lib/rtp/RTPReceiver.h	/^        kWhatPacketLost,$/;"	e	enum:android::RTPReceiver::__anon20
+kWhatPushAudio	lib/sink/DirectRenderer.cpp	/^        kWhatPushAudio,$/;"	e	enum:android::DirectRenderer::AudioRenderer::__anon11	file:
+kWhatQueueAccessUnit	lib/sink/DirectRenderer.h	/^        kWhatQueueAccessUnit,$/;"	e	enum:android::DirectRenderer::__anon14
+kWhatRTCPNotify	lib/rtp/RTPReceiver.h	/^        kWhatRTCPNotify,$/;"	e	enum:android::RTPReceiver::__anon21
+kWhatRTCPNotify	lib/rtp/RTPSender.h	/^        kWhatRTCPNotify,$/;"	e	enum:android::RTPSender::__anon24
+kWhatRTPNotify	lib/rtp/RTPReceiver.h	/^        kWhatRTPNotify,$/;"	e	enum:android::RTPReceiver::__anon21
+kWhatRTPNotify	lib/rtp/RTPSender.h	/^        kWhatRTPNotify,$/;"	e	enum:android::RTPSender::__anon24
+kWhatRTSPNotify	lib/sink/WifiDisplaySink.h	/^        kWhatRTSPNotify,$/;"	e	enum:android::WifiDisplaySink::__anon13
+kWhatReceiverNotify	lib/MediaReceiver.h	/^        kWhatReceiverNotify,$/;"	e	enum:android::MediaReceiver::__anon8
+kWhatReceiverNotify	lib/rtptest.cpp	/^        kWhatReceiverNotify,$/;"	e	enum:android::TestHandler::__anon6	file:
+kWhatRenderVideo	lib/sink/DirectRenderer.h	/^        kWhatRenderVideo,$/;"	e	enum:android::DirectRenderer::__anon14
+kWhatReportLateness	lib/sink/WifiDisplaySink.h	/^        kWhatReportLateness,$/;"	e	enum:android::WifiDisplaySink::__anon13
+kWhatRetransmit	lib/rtp/RTPReceiver.cpp	/^        kWhatRetransmit,$/;"	e	enum:android::RTPReceiver::Source::__anon18	file:
+kWhatSendMore	lib/nettest.cpp	/^        kWhatSendMore,$/;"	e	enum:android::TestHandler::__anon2	file:
+kWhatSendMore	lib/rtptest.cpp	/^        kWhatSendMore,$/;"	e	enum:android::TestHandler::__anon6	file:
+kWhatSendPacket	lib/TimeSyncer.h	/^        kWhatSendPacket,$/;"	e	enum:android::TimeSyncer::__anon16
+kWhatSendRR	lib/rtp/RTPReceiver.h	/^        kWhatSendRR,$/;"	e	enum:android::RTPReceiver::__anon21
+kWhatSenderNotify	lib/rtptest.cpp	/^        kWhatSenderNotify,$/;"	e	enum:android::TestHandler::__anon6	file:
+kWhatSetFormat	lib/sink/DirectRenderer.h	/^        kWhatSetFormat,$/;"	e	enum:android::DirectRenderer::__anon14
+kWhatStart	lib/sink/WifiDisplaySink.h	/^        kWhatStart,$/;"	e	enum:android::WifiDisplaySink::__anon13
+kWhatStartClient	lib/TimeSyncer.h	/^        kWhatStartClient,$/;"	e	enum:android::TimeSyncer::__anon16
+kWhatStartServer	lib/TimeSyncer.h	/^        kWhatStartServer,$/;"	e	enum:android::TimeSyncer::__anon16
+kWhatStop	lib/nettest.cpp	/^        kWhatStop,$/;"	e	enum:android::TestHandler::__anon2	file:
+kWhatStop	lib/rtptest.cpp	/^        kWhatStop,$/;"	e	enum:android::TestHandler::__anon6	file:
+kWhatStop	lib/sink/WifiDisplaySink.h	/^        kWhatStop,$/;"	e	enum:android::WifiDisplaySink::__anon13
+kWhatTimeOffset	lib/TimeSyncer.h	/^        kWhatTimeOffset,$/;"	e	enum:android::TimeSyncer::__anon15
+kWhatTimeSyncerNotify	lib/nettest.cpp	/^        kWhatTimeSyncerNotify,$/;"	e	enum:android::TestHandler::__anon2	file:
+kWhatTimeSyncerNotify	lib/rtptest.cpp	/^        kWhatTimeSyncerNotify,$/;"	e	enum:android::TestHandler::__anon6	file:
+kWhatTimeSyncerNotify	lib/sink/WifiDisplaySink.h	/^        kWhatTimeSyncerNotify,$/;"	e	enum:android::WifiDisplaySink::__anon13
+kWhatTimedOut	lib/TimeSyncer.h	/^        kWhatTimedOut,$/;"	e	enum:android::TimeSyncer::__anon16
+kWhatUDPNotify	lib/TimeSyncer.h	/^        kWhatUDPNotify,$/;"	e	enum:android::TimeSyncer::__anon16
+kWhatWebSocketMessage	lib/ANetworkSession.h	/^        kWhatWebSocketMessage,$/;"	e	enum:android::ANetworkSession::NotificationReason
+level	lib/VideoFormats.h	/^        unsigned char profile, level;$/;"	m	struct:android::VideoFormats::config_t
+listen	lib/nettest.cpp	/^void TestHandler::listen(int32_t port) {$/;"	f	class:android::TestHandler
+listen	lib/rtptest.cpp	/^void TestHandler::listen() {$/;"	f	class:android::TestHandler
+mAccessUnitRTPTime	lib/rtp/RTPAssembler.h	/^    int32_t mAccessUnitRTPTime;$/;"	m	struct:android::RTPReceiver::H264Assembler
+mAccessUnits	lib/sink/DirectRenderer.cpp	/^    List<sp<ABuffer> > mAccessUnits;$/;"	m	struct:android::DirectRenderer::DecoderContext	file:
+mAccumulator	lib/rtp/RTPAssembler.h	/^    sp<ABuffer> mAccumulator;$/;"	m	struct:android::RTPReceiver::H264Assembler
+mActiveAssembler	lib/rtp/RTPReceiver.cpp	/^    sp<Assembler> mActiveAssembler;$/;"	m	struct:android::RTPReceiver::Source	file:
+mActivePacketType	lib/rtp/RTPReceiver.cpp	/^    int32_t mActivePacketType;$/;"	m	struct:android::RTPReceiver::Source	file:
+mArpRetryCount	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    private int mArpRetryCount = 0;$/;"	f	class:WaitingConnectionActivity	file:
+mAudioRenderer	lib/sink/DirectRenderer.h	/^    sp<AudioRenderer> mAudioRenderer;$/;"	m	struct:android::DirectRenderer
+mAudioTrack	lib/sink/DirectRenderer.cpp	/^    sp<AudioTrack> mAudioTrack;$/;"	m	struct:android::DirectRenderer::AudioRenderer	file:
+mAwaitingExtSeqNo	lib/rtp/RTPReceiver.cpp	/^    int32_t mAwaitingExtSeqNo;$/;"	m	struct:android::RTPReceiver::Source	file:
+mBaseSeq	lib/rtp/RTPReceiver.cpp	/^    uint32_t mBaseSeq;$/;"	m	struct:android::RTPReceiver::Source	file:
+mBinder	src/com/lc/wifidisplaysink/HidDeviceAdapterService.java	/^    private final IBinder mBinder = new HidDeviceAdapterBinder();$/;"	f	class:HidDeviceAdapterService	file:
+mBluetoothAdapter	src/com/lc/wifidisplaysink/HidDeviceActivity.java	/^    private BluetoothAdapter mBluetoothAdapter;$/;"	f	class:HidDeviceActivity	file:
+mBluetoothHfDevice	src/com/lc/wifidisplaysink/HidDeviceActivity.java	/^    private BluetoothHfDevice mBluetoothHfDevice;$/;"	f	class:HidDeviceActivity	file:
+mBluetoothProfileServiceListener	src/com/lc/wifidisplaysink/HidDeviceActivity.java	/^    private BluetoothProfile.ServiceListener mBluetoothProfileServiceListener =$/;"	f	class:HidDeviceActivity	file:
+mBluetoothProfileServiceListener	src/com/lc/wifidisplaysink/HidDeviceAdapterService.java	/^    private BluetoothProfile.ServiceListener mBluetoothProfileServiceListener =$/;"	f	class:HidDeviceAdapterService	file:
+mBuffer	lib/ANetworkSession.cpp	/^        sp<ABuffer> mBuffer;$/;"	m	struct:android::ANetworkSession::Session::Fragment	file:
+mBuffer	lib/sink/DirectRenderer.cpp	/^        sp<ABuffer> mBuffer;$/;"	m	struct:android::DirectRenderer::AudioRenderer::BufferInfo	file:
+mBuffer	lib/sink/DirectRenderer.h	/^        sp<ABuffer> mBuffer;$/;"	m	struct:android::DirectRenderer::OutputInfo
+mBuffers	lib/sink/TunnelRenderer.cpp	/^    Vector<sp<IMemory> > mBuffers;$/;"	m	struct:android::TunnelRenderer::StreamSource	file:
+mCSeq	lib/sink/WifiDisplaySink.h	/^        int32_t mCSeq;$/;"	m	struct:android::WifiDisplaySink::ResponseID
+mChannel	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    private Channel mChannel;$/;"	f	class:WaitingConnectionActivity	file:
+mClass	jni/JniWifiDisplaySink.cpp	/^    jclass      mClass;$/;"	m	class:JniWfdSinkListener	file:
+mComposerClient	lib/wfd.cpp	/^    sp<SurfaceComposerClient> mComposerClient;$/;"	m	struct:android::RemoteDisplayClient	file:
+mCondition	lib/wfd.cpp	/^    Condition mCondition;$/;"	m	struct:android::RemoteDisplayClient	file:
+mConfigs	lib/VideoFormats.h	/^    config_t mConfigs[kNumResolutionTypes][32];$/;"	m	struct:android::VideoFormats
+mConn	src/com/lc/wifidisplaysink/WifiDisplaySinkActivity.java	/^    private ServiceConnection mConn = new ServiceConnection() {$/;"	f	class:WifiDisplaySinkActivity	file:
+mConnected	lib/TimeSyncer.h	/^    bool mConnected;$/;"	m	struct:android::TimeSyncer
+mConnected	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    private boolean mConnected;$/;"	f	class:WaitingConnectionActivity	file:
+mConnectingAnimation	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    private AnimationDrawable mConnectingAnimation;$/;"	f	class:WaitingConnectionActivity	file:
+mConnectingChecker	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    private Runnable mConnectingChecker = new Runnable() {$/;"	f	class:WaitingConnectionActivity	file:
+mConnectingImageView	src/com/lc/wifidisplaysink/HidDeviceActivity.java	/^    private ImageView mConnectingImageView;$/;"	f	class:HidDeviceActivity	file:
+mConnectingImageView	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    private ImageView mConnectingImageView;$/;"	f	class:WaitingConnectionActivity	file:
+mConnectingTextView	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    private TextView mConnectingTextView;$/;"	f	class:WaitingConnectionActivity	file:
+mContext	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    private Context mContext;$/;"	f	class:WaitingConnectionActivity	file:
+mContext	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    private Context mContext = null;$/;"	f	class:WifiDisplaySinkView	file:
+mCounter	lib/nettest.cpp	/^    int32_t mCounter;$/;"	m	struct:android::TestHandler	file:
+mCounter	lib/rtptest.cpp	/^    uint32_t mCounter;$/;"	m	struct:android::SimplePacketSource	file:
+mCurrentX	src/com/lc/wifidisplaysink/HidDeviceActivity.java	/^    private int mLastX= 0xffff, mLastY= 0xffff, mCurrentX= 0xffff, mCurrentY = 0xffff;$/;"	f	class:HidDeviceActivity	file:
+mCurrentX	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    private int mLastX= 0xffff, mLastY= 0xffff, mCurrentX= 0xffff, mCurrentY = 0xffff;$/;"	f	class:WifiDisplaySinkView	file:
+mCurrentY	src/com/lc/wifidisplaysink/HidDeviceActivity.java	/^    private int mLastX= 0xffff, mLastY= 0xffff, mCurrentX= 0xffff, mCurrentY = 0xffff;$/;"	f	class:HidDeviceActivity	file:
+mCurrentY	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    private int mLastX= 0xffff, mLastY= 0xffff, mCurrentX= 0xffff, mCurrentY = 0xffff;$/;"	f	class:WifiDisplaySinkView	file:
+mCycles	lib/rtp/RTPReceiver.cpp	/^    uint32_t mCycles;$/;"	m	struct:android::RTPReceiver::Source	file:
+mDeclareLostGeneration	lib/rtp/RTPReceiver.cpp	/^    int32_t mDeclareLostGeneration;$/;"	m	struct:android::RTPReceiver::Source	file:
+mDeclareLostTimerPending	lib/rtp/RTPReceiver.cpp	/^    bool mDeclareLostTimerPending;$/;"	m	struct:android::RTPReceiver::Source	file:
+mDecoder	lib/sink/DirectRenderer.cpp	/^    sp<MediaCodec> mDecoder;$/;"	m	struct:android::DirectRenderer::DecoderContext	file:
+mDecoderContext	lib/sink/DirectRenderer.cpp	/^    sp<DecoderContext> mDecoderContext;$/;"	m	struct:android::DirectRenderer::AudioRenderer	file:
+mDecoderContext	lib/sink/DirectRenderer.h	/^    sp<DecoderContext> mDecoderContext[2];$/;"	m	struct:android::DirectRenderer
+mDecoderInputBuffers	lib/sink/DirectRenderer.cpp	/^    Vector<sp<ABuffer> > mDecoderInputBuffers;$/;"	m	struct:android::DirectRenderer::DecoderContext	file:
+mDecoderInputBuffersAvailable	lib/sink/DirectRenderer.cpp	/^    List<size_t> mDecoderInputBuffersAvailable;$/;"	m	struct:android::DirectRenderer::DecoderContext	file:
+mDecoderLooper	lib/sink/DirectRenderer.cpp	/^    sp<ALooper> mDecoderLooper;$/;"	m	struct:android::DirectRenderer::DecoderContext	file:
+mDecoderNotificationPending	lib/sink/DirectRenderer.cpp	/^    bool mDecoderNotificationPending;$/;"	m	struct:android::DirectRenderer::DecoderContext	file:
+mDecoderOutputBuffers	lib/sink/DirectRenderer.cpp	/^    Vector<sp<ABuffer> > mDecoderOutputBuffers;$/;"	m	struct:android::DirectRenderer::DecoderContext	file:
+mDevice	src/com/lc/wifidisplaysink/RarpImpl.java	/^        String mDevice;$/;"	f	class:RarpImpl.ArpType
+mDeviceHeight	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    private int mDeviceHeight = 432; \/\/480 - 48;  NavigationBar:48$/;"	f	class:WifiDisplaySinkView	file:
+mDeviceWidth	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    private int mDeviceWidth = 800;$/;"	f	class:WifiDisplaySinkView	file:
+mDict	lib/Parameters.h	/^    KeyedVector<AString, AString> mDict;$/;"	m	struct:android::Parameters
+mDiscoverabilityReceiver	src/com/lc/wifidisplaysink/HIDLauncher.java	/^    private BroadcastReceiver mDiscoverabilityReceiver = new BroadcastReceiver() {$/;"	f	class:HIDLauncher	file:
+mDiscoverabilityReceiver	src/com/lc/wifidisplaysink/HidDeviceActivity.java	/^    private BroadcastReceiver mDiscoverabilityReceiver = new BroadcastReceiver() {$/;"	f	class:HidDeviceActivity	file:
+mDisplayBinder	lib/wfd.cpp	/^    sp<IBinder> mDisplayBinder;$/;"	m	struct:android::RemoteDisplayClient	file:
+mDone	lib/wfd.cpp	/^    bool mDone;$/;"	m	struct:android::RemoteDisplayClient	file:
+mDownX	src/com/lc/wifidisplaysink/HidDeviceActivity.java	/^    private int mDownX= 0xffff, mDownY= 0xffff, mUpX= 0xffff, mUpY = 0xffff;$/;"	f	class:HidDeviceActivity	file:
+mDownX	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    private int mDownX= 0xffff, mDownY= 0xffff, mUpX= 0xffff, mUpY = 0xffff;$/;"	f	class:WifiDisplaySinkView	file:
+mDownY	src/com/lc/wifidisplaysink/HidDeviceActivity.java	/^    private int mDownX= 0xffff, mDownY= 0xffff, mUpX= 0xffff, mUpY = 0xffff;$/;"	f	class:HidDeviceActivity	file:
+mDownY	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    private int mDownX= 0xffff, mDownY= 0xffff, mUpX= 0xffff, mUpY = 0xffff;$/;"	f	class:WifiDisplaySinkView	file:
+mEventHandler	src/com/lc/wifidisplaysink/WifiDisplaySink.java	/^    private EventHandler mEventHandler;$/;"	f	class:WifiDisplaySink	file:
+mExpectedPrior	lib/rtp/RTPReceiver.cpp	/^    uint32_t mExpectedPrior;$/;"	m	struct:android::RTPReceiver::Source	file:
+mExtractor	lib/rtptest.cpp	/^    sp<NuMediaExtractor> mExtractor;$/;"	m	struct:android::MediaPacketSource	file:
+mFirst	lib/rtp/RTPReceiver.cpp	/^    bool mFirst;$/;"	m	struct:android::RTPReceiver::Source	file:
+mFirstArrivalTimeUs	lib/rtp/RTPReceiver.cpp	/^    int64_t mFirstArrivalTimeUs;$/;"	m	struct:android::RTPReceiver::Source	file:
+mFirstRTPTimeUs	lib/rtp/RTPReceiver.cpp	/^    int64_t mFirstRTPTimeUs;$/;"	m	struct:android::RTPReceiver::Source	file:
+mFirstTimeMediaUs	lib/rtptest.cpp	/^    int64_t mFirstTimeMediaUs;$/;"	m	struct:android::TestHandler	file:
+mFirstTimeRealUs	lib/rtptest.cpp	/^    int64_t mFirstTimeRealUs;$/;"	m	struct:android::TestHandler	file:
+mFlags	lib/ANetworkSession.cpp	/^        uint32_t mFlags;$/;"	m	struct:android::ANetworkSession::Session::Fragment	file:
+mFlags	lib/rtp/RTPReceiver.h	/^    uint32_t mFlags;$/;"	m	struct:android::RTPReceiver
+mFlags	lib/sink/WifiDisplaySink.h	/^    uint32_t mFlags;$/;"	m	struct:android::WifiDisplaySink
+mFlags	src/com/lc/wifidisplaysink/RarpImpl.java	/^        String mFlags;$/;"	f	class:RarpImpl.ArpType
+mFormatKnownMask	lib/MediaReceiver.h	/^    uint32_t mFormatKnownMask;$/;"	m	struct:android::MediaReceiver
+mGeneration	lib/MediaReceiver.h	/^    int32_t mGeneration;$/;"	m	struct:android::MediaReceiver
+mHIDDevice	src/com/lc/wifidisplaysink/HidDeviceActivity.java	/^    private HidDevice mHIDDevice;$/;"	f	class:HidDeviceActivity	file:
+mHIDDevice	src/com/lc/wifidisplaysink/HidDeviceAdapterService.java	/^    private HidDevice mHIDDevice = null;$/;"	f	class:HidDeviceAdapterService	file:
+mHIDeviceCallback	src/com/lc/wifidisplaysink/HidDeviceActivity.java	/^    private final IBluetoothHidDeviceCallback mHIDeviceCallback = new$/;"	f	class:HidDeviceActivity	file:
+mHIDeviceCallback	src/com/lc/wifidisplaysink/HidDeviceAdapterService.java	/^    private final IBluetoothHidDeviceCallback mHIDeviceCallback = new$/;"	f	class:HidDeviceAdapterService	file:
+mHWType	src/com/lc/wifidisplaysink/RarpImpl.java	/^        String mHWType;$/;"	f	class:RarpImpl.ArpType
+mHWaddress	src/com/lc/wifidisplaysink/RarpImpl.java	/^        String mHWaddress;$/;"	f	class:RarpImpl.ArpType
+mHandler	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    private final Handler mHandler = new Handler();$/;"	f	class:WaitingConnectionActivity	file:
+mHidDeviceAdapterService	src/com/lc/wifidisplaysink/WifiDisplaySinkActivity.java	/^    HidDeviceAdapterService mHidDeviceAdapterService;$/;"	f	class:WifiDisplaySinkActivity
+mHidDeviceAdapterService	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    private HidDeviceAdapterService mHidDeviceAdapterService;$/;"	f	class:WifiDisplaySinkView	file:
+mHistory	lib/TimeSyncer.h	/^    Vector<TimeInfo> mHistory;$/;"	m	struct:android::TimeSyncer
+mHistory	lib/rtp/RTPSender.h	/^    List<sp<ABuffer> > mHistory;$/;"	m	struct:android::RTPSender
+mHistorySize	lib/rtp/RTPSender.h	/^    size_t mHistorySize;$/;"	m	struct:android::RTPSender
+mHostHeight	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    private int mHostHeight = 1280;$/;"	f	class:WifiDisplaySinkView	file:
+mHostIsVertical	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    private boolean mHostIsVertical = true;$/;"	f	class:WifiDisplaySinkView	file:
+mHostWidth	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    private int mHostWidth = 720;$/;"	f	class:WifiDisplaySinkView	file:
+mIDRFrameRequestPending	lib/sink/WifiDisplaySink.h	/^    bool mIDRFrameRequestPending;$/;"	m	struct:android::WifiDisplaySink
+mIPaddress	src/com/lc/wifidisplaysink/RarpImpl.java	/^        public String mIPaddress;$/;"	f	class:RarpImpl.ArpType
+mInBuffer	lib/ANetworkSession.cpp	/^    AString mInBuffer;$/;"	m	struct:android::ANetworkSession::Session	file:
+mIndex	lib/sink/DirectRenderer.cpp	/^        size_t mIndex;$/;"	m	struct:android::DirectRenderer::AudioRenderer::BufferInfo	file:
+mIndex	lib/sink/DirectRenderer.h	/^        size_t mIndex;$/;"	m	struct:android::DirectRenderer::OutputInfo
+mIndicator	lib/rtp/RTPAssembler.h	/^    uint8_t mIndicator;$/;"	m	struct:android::RTPReceiver::H264Assembler
+mIndicesAvailable	lib/sink/TunnelRenderer.cpp	/^    List<size_t> mIndicesAvailable;$/;"	m	struct:android::TunnelRenderer::StreamSource	file:
+mInitDoneCount	lib/MediaReceiver.h	/^    size_t mInitDoneCount;$/;"	m	struct:android::MediaReceiver
+mInitStatus	lib/MediaReceiver.h	/^    status_t mInitStatus;$/;"	m	struct:android::MediaReceiver
+mInputBuffers	lib/sink/DirectRenderer.cpp	/^    List<BufferInfo> mInputBuffers;$/;"	m	struct:android::DirectRenderer::AudioRenderer	file:
+mIsServer	lib/TimeSyncer.h	/^    bool mIsServer;$/;"	m	struct:android::TimeSyncer
+mIsSinkOpened	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    private boolean mIsSinkOpened;$/;"	f	class:WaitingConnectionActivity	file:
+mIsWiFiDirectEnabled	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    private boolean mIsWiFiDirectEnabled;$/;"	f	class:WaitingConnectionActivity	file:
+mLastMappedX	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    private int mLastMappedX= 0xffff, mLastMappedY= 0xffff;$/;"	f	class:WifiDisplaySinkView	file:
+mLastMappedY	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    private int mLastMappedX= 0xffff, mLastMappedY= 0xffff;$/;"	f	class:WifiDisplaySinkView	file:
+mLastNTPTime	lib/rtp/RTPSender.h	/^    uint64_t mLastNTPTime;$/;"	m	struct:android::RTPSender
+mLastRTPTime	lib/rtp/RTPSender.h	/^    uint32_t mLastRTPTime;$/;"	m	struct:android::RTPSender
+mLastStallReportUs	lib/ANetworkSession.cpp	/^    int64_t mLastStallReportUs;$/;"	m	struct:android::ANetworkSession::Session	file:
+mLastUnmappedX	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    private int mLastUnmappedX= 0xffff, mLastUnmappedY= 0xffff;$/;"	f	class:WifiDisplaySinkView	file:
+mLastUnmappedY	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    private int mLastUnmappedX= 0xffff, mLastUnmappedY= 0xffff;$/;"	f	class:WifiDisplaySinkView	file:
+mLastX	src/com/lc/wifidisplaysink/HidDeviceActivity.java	/^    private int mLastX= 0xffff, mLastY= 0xffff, mCurrentX= 0xffff, mCurrentY = 0xffff;$/;"	f	class:HidDeviceActivity	file:
+mLastX	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    private int mLastX= 0xffff, mLastY= 0xffff, mCurrentX= 0xffff, mCurrentY = 0xffff;$/;"	f	class:WifiDisplaySinkView	file:
+mLastY	src/com/lc/wifidisplaysink/HidDeviceActivity.java	/^    private int mLastX= 0xffff, mLastY= 0xffff, mCurrentX= 0xffff, mCurrentY = 0xffff;$/;"	f	class:HidDeviceActivity	file:
+mLastY	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    private int mLastX= 0xffff, mLastY= 0xffff, mCurrentX= 0xffff, mCurrentY = 0xffff;$/;"	f	class:WifiDisplaySinkView	file:
+mLatencyCount	lib/sink/WifiDisplaySink.h	/^    size_t mLatencyCount;$/;"	m	struct:android::WifiDisplaySink
+mLatencyMaxUs	lib/sink/WifiDisplaySink.h	/^    int64_t mLatencyMaxUs;$/;"	m	struct:android::WifiDisplaySink
+mLatencySumUs	lib/sink/WifiDisplaySink.h	/^    int64_t mLatencySumUs;$/;"	m	struct:android::WifiDisplaySink
+mListener	jni/JniWifiDisplaySink.cpp	/^    sp<JniWfdSinkListener> mListener;$/;"	m	struct:WfdNativeContext	file:
+mListener	lib/sink/TunnelRenderer.cpp	/^    sp<IStreamListener> mListener;$/;"	m	struct:android::TunnelRenderer::StreamSource	file:
+mListener	lib/sink/WifiDisplaySink.h	/^    sp<WfdSinkListener> mListener;$/;"	m	struct:android::WifiDisplaySink
+mListenerContext	src/com/lc/wifidisplaysink/WifiDisplaySink.java	/^    private int mListenerContext;$/;"	f	class:WifiDisplaySink	file:
+mLocalRtpPort	lib/sink/WifiDisplaySink.h	/^    int32_t mLocalRtpPort;$/;"	m	struct:android::WifiDisplaySink
+mLock	lib/ANetworkSession.h	/^    Mutex mLock;$/;"	m	struct:android::ANetworkSession
+mLock	lib/sink/TunnelRenderer.cpp	/^    mutable Mutex mLock;$/;"	m	struct:android::TunnelRenderer::StreamSource	file:
+mLock	lib/wfd.cpp	/^    Mutex mLock;$/;"	m	struct:android::RemoteDisplayClient	file:
+mLooper	jni/JniWifiDisplaySink.cpp	/^    sp<ALooper> mLooper;$/;"	m	struct:WfdNativeContext	file:
+mLostPackets	lib/rtp/RTPReceiver.cpp	/^    KeyedVector<int32_t, uint32_t> mLostPackets;$/;"	m	struct:android::RTPReceiver::Source	file:
+mMask	src/com/lc/wifidisplaysink/RarpImpl.java	/^        String mMask;$/;"	f	class:RarpImpl.ArpType
+mMaxDelayMs	lib/nettest.cpp	/^    int64_t mMaxDelayMs;$/;"	m	struct:android::TestHandler	file:
+mMaxDelayMs	lib/sink/WifiDisplaySink.h	/^    int64_t mMaxDelayMs;$/;"	m	struct:android::WifiDisplaySink
+mMaxSampleSize	lib/rtptest.cpp	/^    size_t mMaxSampleSize;$/;"	m	struct:android::MediaPacketSource	file:
+mMaxSeq	lib/rtp/RTPReceiver.cpp	/^    uint16_t mMaxSeq;$/;"	m	struct:android::RTPReceiver::Source	file:
+mMediaReceiver	lib/sink/WifiDisplaySink.h	/^    sp<MediaReceiver> mMediaReceiver;$/;"	m	struct:android::WifiDisplaySink
+mMediaReceiverLooper	lib/sink/WifiDisplaySink.h	/^    sp<ALooper> mMediaReceiverLooper;$/;"	m	struct:android::WifiDisplaySink
+mMode	lib/ANetworkSession.cpp	/^    Mode mMode;$/;"	m	struct:android::ANetworkSession::Session	file:
+mMode	lib/MediaReceiver.h	/^    Mode mMode;$/;"	m	struct:android::MediaReceiver
+mNALType	lib/rtp/RTPAssembler.h	/^    uint8_t mNALType;$/;"	m	struct:android::RTPReceiver::H264Assembler
+mNALUnits	lib/rtp/RTPAssembler.h	/^    List<sp<ABuffer> > mNALUnits;$/;"	m	struct:android::RTPReceiver::H264Assembler
+mNativeContext	src/com/lc/wifidisplaysink/WifiDisplaySink.java	/^    private long mNativeContext;$/;"	f	class:WifiDisplaySink	file:
+mNativeIndex	lib/VideoFormats.h	/^    size_t mNativeIndex;$/;"	m	struct:android::VideoFormats
+mNativeType	lib/VideoFormats.h	/^    ResolutionType mNativeType;$/;"	m	struct:android::VideoFormats
+mNetSession	lib/MediaReceiver.h	/^    sp<ANetworkSession> mNetSession;$/;"	m	struct:android::MediaReceiver
+mNetSession	lib/TimeSyncer.h	/^    sp<ANetworkSession> mNetSession;$/;"	m	struct:android::TimeSyncer
+mNetSession	lib/nettest.cpp	/^    sp<ANetworkSession> mNetSession;$/;"	m	struct:android::TestHandler	file:
+mNetSession	lib/rtp/RTPReceiver.h	/^    sp<ANetworkSession> mNetSession;$/;"	m	struct:android::RTPReceiver
+mNetSession	lib/rtp/RTPSender.h	/^    sp<ANetworkSession> mNetSession;$/;"	m	struct:android::RTPSender
+mNetSession	lib/rtptest.cpp	/^    sp<ANetworkSession> mNetSession;$/;"	m	struct:android::TestHandler	file:
+mNetSession	lib/sink/WifiDisplaySink.h	/^    sp<ANetworkSession> mNetSession;$/;"	m	struct:android::WifiDisplaySink
+mNextCSeq	lib/sink/WifiDisplaySink.h	/^    int32_t mNextCSeq;$/;"	m	struct:android::WifiDisplaySink
+mNextReportTimeUs	lib/rtp/RTPReceiver.cpp	/^    int64_t mNextReportTimeUs;$/;"	m	struct:android::RTPReceiver::Source	file:
+mNextSessionID	lib/ANetworkSession.h	/^    int32_t mNextSessionID;$/;"	m	struct:android::ANetworkSession
+mNotify	lib/ANetworkSession.cpp	/^    sp<AMessage> mNotify;$/;"	m	struct:android::ANetworkSession::Session	file:
+mNotify	lib/MediaReceiver.h	/^    sp<AMessage> mNotify;$/;"	m	struct:android::MediaReceiver
+mNotify	lib/TimeSyncer.h	/^    sp<AMessage> mNotify;$/;"	m	struct:android::TimeSyncer
+mNotify	lib/rtp/RTPAssembler.h	/^    sp<AMessage> mNotify;$/;"	m	struct:android::RTPReceiver::Assembler
+mNotify	lib/rtp/RTPReceiver.h	/^    sp<AMessage> mNotify;$/;"	m	struct:android::RTPReceiver
+mNotify	lib/rtp/RTPSender.h	/^    sp<AMessage> mNotify;$/;"	m	struct:android::RTPSender
+mNotify	lib/sink/DirectRenderer.cpp	/^    sp<AMessage> mNotify;$/;"	m	struct:android::DirectRenderer::DecoderContext	file:
+mNotify	lib/sink/WifiDisplaySink.h	/^    sp<AMessage> mNotify;$/;"	m	struct:android::WifiDisplaySink
+mNumDeclaredLost	lib/rtp/RTPReceiver.cpp	/^    int32_t mNumDeclaredLost;$/;"	m	struct:android::RTPReceiver::Source	file:
+mNumDeclaredLostPrior	lib/rtp/RTPReceiver.cpp	/^    int32_t mNumDeclaredLostPrior;$/;"	m	struct:android::RTPReceiver::Source	file:
+mNumDeqeued	lib/sink/TunnelRenderer.cpp	/^    size_t mNumDeqeued;$/;"	m	struct:android::TunnelRenderer::StreamSource	file:
+mNumFrames	lib/sink/DirectRenderer.h	/^    int32_t mNumFrames;$/;"	m	struct:android::DirectRenderer
+mNumFramesLate	lib/sink/DirectRenderer.h	/^    int32_t mNumFramesLate;$/;"	m	struct:android::DirectRenderer
+mNumFramesWritten	lib/sink/DirectRenderer.cpp	/^    size_t mNumFramesWritten;$/;"	m	struct:android::DirectRenderer::AudioRenderer	file:
+mNumRTPOctetsSent	lib/rtp/RTPSender.h	/^    uint32_t mNumRTPOctetsSent;$/;"	m	struct:android::RTPSender
+mNumRTPSent	lib/rtp/RTPSender.h	/^    uint32_t mNumRTPSent;$/;"	m	struct:android::RTPSender
+mNumSRsSent	lib/rtp/RTPSender.h	/^    uint32_t mNumSRsSent;$/;"	m	struct:android::RTPSender
+mObject	jni/JniWifiDisplaySink.cpp	/^    jobject     mObject;$/;"	m	class:JniWfdSinkListener	file:
+mOnErrorListener	src/com/lc/wifidisplaysink/WifiDisplaySink.java	/^    private OnErrorListener mOnErrorListener;$/;"	f	class:WifiDisplaySink	file:
+mOnErrorListener	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    private WifiDisplaySink.OnErrorListener mOnErrorListener;$/;"	f	class:WifiDisplaySinkView	file:
+mOutFragments	lib/ANetworkSession.cpp	/^    List<Fragment> mOutFragments;$/;"	m	struct:android::ANetworkSession::Session	file:
+mOwner	lib/sink/TunnelRenderer.cpp	/^    TunnelRenderer *mOwner;$/;"	m	struct:android::TunnelRenderer::StreamSource	file:
+mP2pControlPort	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    private int mP2pControlPort = -1;$/;"	f	class:WaitingConnectionActivity	file:
+mP2pInterfaceName	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    private String mP2pInterfaceName;$/;"	f	class:WaitingConnectionActivity	file:
+mPacketTypes	lib/rtp/RTPReceiver.h	/^    KeyedVector<uint8_t, PacketizationMode> mPacketTypes;$/;"	m	struct:android::RTPReceiver
+mPackets	lib/rtp/RTPReceiver.cpp	/^    List<sp<ABuffer> > mPackets;$/;"	m	struct:android::RTPReceiver::Source	file:
+mPeers	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    private List<WifiP2pDevice> mPeers = new ArrayList<WifiP2pDevice>();$/;"	f	class:WaitingConnectionActivity	file:
+mPendingT1	lib/TimeSyncer.h	/^    int64_t mPendingT1;$/;"	m	struct:android::TimeSyncer
+mPipeFd	lib/ANetworkSession.h	/^    int mPipeFd[2];$/;"	m	struct:android::ANetworkSession
+mPlaybackSessionID	lib/sink/WifiDisplaySink.h	/^    AString mPlaybackSessionID;$/;"	m	struct:android::WifiDisplaySink
+mPlaybackSessionTimeoutSecs	lib/sink/WifiDisplaySink.h	/^    int32_t mPlaybackSessionTimeoutSecs;$/;"	m	struct:android::WifiDisplaySink
+mPushPending	lib/sink/DirectRenderer.cpp	/^    bool mPushPending;$/;"	m	struct:android::DirectRenderer::AudioRenderer	file:
+mRTCPClientSessionID	lib/rtp/RTPReceiver.h	/^    int32_t mRTCPClientSessionID;  \/\/ in TRANSPORT_TCP mode.$/;"	m	struct:android::RTPReceiver
+mRTCPConnected	lib/rtp/RTPReceiver.h	/^    bool mRTCPConnected;$/;"	m	struct:android::RTPReceiver
+mRTCPConnected	lib/rtp/RTPSender.h	/^    bool mRTCPConnected;$/;"	m	struct:android::RTPSender
+mRTCPMode	lib/rtp/RTPReceiver.h	/^    TransportMode mRTCPMode;$/;"	m	struct:android::RTPReceiver
+mRTCPMode	lib/rtp/RTPSender.h	/^    TransportMode mRTCPMode;$/;"	m	struct:android::RTPSender
+mRTCPSessionID	lib/rtp/RTPReceiver.h	/^    int32_t mRTCPSessionID;$/;"	m	struct:android::RTPReceiver
+mRTCPSessionID	lib/rtp/RTPSender.h	/^    int32_t mRTCPSessionID;$/;"	m	struct:android::RTPSender
+mRTPClientSessionID	lib/rtp/RTPReceiver.h	/^    int32_t mRTPClientSessionID;  \/\/ in TRANSPORT_TCP mode.$/;"	m	struct:android::RTPReceiver
+mRTPConnected	lib/rtp/RTPReceiver.h	/^    bool mRTPConnected;$/;"	m	struct:android::RTPReceiver
+mRTPConnected	lib/rtp/RTPSender.h	/^    bool mRTPConnected;$/;"	m	struct:android::RTPSender
+mRTPMode	lib/rtp/RTPReceiver.h	/^    TransportMode mRTPMode;$/;"	m	struct:android::RTPReceiver
+mRTPMode	lib/rtp/RTPSender.h	/^    TransportMode mRTPMode;$/;"	m	struct:android::RTPSender
+mRTPSeqNo	lib/rtp/RTPSender.h	/^    uint32_t mRTPSeqNo;$/;"	m	struct:android::RTPSender
+mRTPSessionID	lib/rtp/RTPReceiver.h	/^    int32_t mRTPSessionID;$/;"	m	struct:android::RTPReceiver
+mRTPSessionID	lib/rtp/RTPSender.h	/^    int32_t mRTPSessionID;$/;"	m	struct:android::RTPSender
+mRTSPHost	lib/sink/WifiDisplaySink.h	/^    AString mRTSPHost;$/;"	m	struct:android::WifiDisplaySink
+mRarpChecker	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    private Runnable mRarpChecker = new Runnable() {$/;"	f	class:WaitingConnectionActivity	file:
+mReceived	lib/rtp/RTPReceiver.cpp	/^    uint32_t mReceived;$/;"	m	struct:android::RTPReceiver::Source	file:
+mReceivedPrior	lib/rtp/RTPReceiver.cpp	/^    uint32_t mReceivedPrior;$/;"	m	struct:android::RTPReceiver::Source	file:
+mReceiver	lib/MediaReceiver.h	/^        sp<RTPReceiver> mReceiver;$/;"	m	struct:android::MediaReceiver::TrackInfo
+mReceiver	lib/rtp/RTPReceiver.cpp	/^    RTPReceiver *mReceiver;$/;"	m	struct:android::RTPReceiver::Source	file:
+mReceiver	lib/rtptest.cpp	/^    sp<RTPReceiver> mReceiver;$/;"	m	struct:android::TestHandler	file:
+mReceiver	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    private BroadcastReceiver mReceiver;$/;"	f	class:WaitingConnectionActivity	file:
+mRedelivery	src/com/lc/wifidisplaysink/HidDeviceAdapterService.java	/^    private boolean mRedelivery = false;$/;"	f	class:HidDeviceAdapterService	file:
+mRenderer	lib/sink/WifiDisplaySink.h	/^    sp<DirectRenderer> mRenderer;$/;"	m	struct:android::WifiDisplaySink
+mRequestedRetransmission	lib/rtp/RTPReceiver.cpp	/^    bool mRequestedRetransmission;$/;"	m	struct:android::RTPReceiver::Source	file:
+mResolutionEnabled	lib/VideoFormats.h	/^    uint32_t mResolutionEnabled[kNumResolutionTypes];$/;"	m	struct:android::VideoFormats
+mResolutionTable	lib/VideoFormats.cpp	/^const VideoFormats::config_t VideoFormats::mResolutionTable[][32] = {$/;"	m	class:android::VideoFormats	file:
+mResolutionTable	lib/VideoFormats.h	/^    static const config_t mResolutionTable[kNumResolutionTypes][32];$/;"	m	struct:android::VideoFormats
+mResponseHandlers	lib/sink/WifiDisplaySink.h	/^    KeyedVector<ResponseID, HandleRTSPResponseFunc> mResponseHandlers;$/;"	m	struct:android::WifiDisplaySink
+mRetransmitGeneration	lib/rtp/RTPReceiver.cpp	/^    int32_t mRetransmitGeneration;$/;"	m	struct:android::RTPReceiver::Source	file:
+mRoundTripTimeNTP	lib/SNTPClient.h	/^    int64_t mRoundTripTimeNTP;$/;"	m	struct:android::SNTPClient
+mSDPRecord	src/com/lc/wifidisplaysink/HidDeviceActivity.java	/^    private SDPRecord mSDPRecord;$/;"	f	class:HidDeviceActivity	file:
+mSDPRecord	src/com/lc/wifidisplaysink/HidDeviceAdapterService.java	/^    private SDPRecord mSDPRecord = null;$/;"	f	class:HidDeviceAdapterService	file:
+mSHCallback	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    SurfaceHolder.Callback mSHCallback = new SurfaceHolder.Callback()$/;"	f	class:WifiDisplaySinkView
+mSSRC	lib/rtp/RTPReceiver.cpp	/^    uint32_t mSSRC;$/;"	m	struct:android::RTPReceiver::Source	file:
+mSawDiscontinuity	lib/rtp/RTPAssembler.h	/^    bool mSawDiscontinuity;$/;"	m	struct:android::RTPReceiver::TSAssembler
+mSawReceiveFailure	lib/ANetworkSession.cpp	/^    bool mSawReceiveFailure, mSawSendFailure;$/;"	m	struct:android::ANetworkSession::Session	file:
+mSawSendFailure	lib/ANetworkSession.cpp	/^    bool mSawReceiveFailure, mSawSendFailure;$/;"	m	struct:android::ANetworkSession::Session	file:
+mSender	lib/rtptest.cpp	/^    sp<RTPSender> mSender;$/;"	m	struct:android::TestHandler	file:
+mSeqNo	lib/TimeSyncer.h	/^    uint32_t mSeqNo;$/;"	m	struct:android::TimeSyncer
+mServerSessionID	lib/nettest.cpp	/^    int32_t mServerSessionID;$/;"	m	struct:android::TestHandler	file:
+mSession	lib/ANetworkSession.cpp	/^    ANetworkSession *mSession;$/;"	m	struct:android::ANetworkSession::NetworkThread	file:
+mSessionID	lib/ANetworkSession.cpp	/^    int32_t mSessionID;$/;"	m	struct:android::ANetworkSession::Session	file:
+mSessionID	lib/nettest.cpp	/^    int32_t mSessionID;$/;"	m	struct:android::TestHandler	file:
+mSessionID	lib/sink/WifiDisplaySink.h	/^        int32_t mSessionID;$/;"	m	struct:android::WifiDisplaySink::ResponseID
+mSessionID	lib/sink/WifiDisplaySink.h	/^    int32_t mSessionID;$/;"	m	struct:android::WifiDisplaySink
+mSessions	lib/ANetworkSession.h	/^    KeyedVector<int32_t, sp<Session> > mSessions;$/;"	m	struct:android::ANetworkSession
+mSetupDeferred	lib/sink/WifiDisplaySink.h	/^    bool mSetupDeferred;$/;"	m	struct:android::WifiDisplaySink
+mSink	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^        private WifiDisplaySink mSink;$/;"	f	class:WaitingConnectionActivity.AvoidANRThread	file:
+mSink	src/com/lc/wifidisplaysink/WifiDisplaySinkActivity.java	/^    private WifiDisplaySink mSink;$/;"	f	class:WifiDisplaySinkActivity	file:
+mSink	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    private WifiDisplaySink mSink;$/;"	f	class:WifiDisplaySinkView	file:
+mSinkSupportedVideoFormats	lib/sink/WifiDisplaySink.h	/^    VideoFormats mSinkSupportedVideoFormats;$/;"	m	struct:android::WifiDisplaySink
+mSocket	lib/ANetworkSession.cpp	/^    int mSocket;$/;"	m	struct:android::ANetworkSession::Session	file:
+mSource	lib/rtptest.cpp	/^    sp<PacketSource> mSource;$/;"	m	struct:android::TestHandler	file:
+mSourceAddr	src/com/lc/wifidisplaysink/WifiDisplaySinkActivity.java	/^    private String mSourceAddr;$/;"	f	class:WifiDisplaySinkActivity	file:
+mSourceAddr	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    private String mSourceAddr = null;$/;"	f	class:WifiDisplaySinkView	file:
+mSourcePort	src/com/lc/wifidisplaysink/WifiDisplaySinkActivity.java	/^    private int mSourcePort;$/;"	f	class:WifiDisplaySinkActivity	file:
+mSourcePort	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    private int mSourcePort = 7236;$/;"	f	class:WifiDisplaySinkView	file:
+mSources	lib/rtp/RTPReceiver.h	/^    KeyedVector<uint32_t, sp<Source> > mSources;$/;"	m	struct:android::RTPReceiver
+mState	lib/ANetworkSession.cpp	/^    State mState;$/;"	m	struct:android::ANetworkSession::Session	file:
+mState	lib/rtp/RTPAssembler.h	/^    int32_t mState;$/;"	m	struct:android::RTPReceiver::H264Assembler
+mState	lib/sink/WifiDisplaySink.h	/^    State mState;$/;"	m	struct:android::WifiDisplaySink
+mSurface	jni/JniWifiDisplaySink.cpp	/^    sp<Surface> mSurface;$/;"	m	struct:WfdNativeContext	file:
+mSurfaceComposerClient	jni/JniWifiDisplaySink.cpp	/^    sp<SurfaceComposerClient> mSurfaceComposerClient;$/;"	m	struct:WfdNativeContext	file:
+mSurfaceControl	jni/JniWifiDisplaySink.cpp	/^    sp<SurfaceControl> mSurfaceControl;$/;"	m	struct:WfdNativeContext	file:
+mSurfaceHeight	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    private int         mSurfaceHeight;$/;"	f	class:WifiDisplaySinkView	file:
+mSurfaceHolder	src/com/lc/wifidisplaysink/WifiDisplaySink.java	/^    private SurfaceHolder mSurfaceHolder;$/;"	f	class:WifiDisplaySink	file:
+mSurfaceHolder	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    private SurfaceHolder mSurfaceHolder = null;$/;"	f	class:WifiDisplaySinkView	file:
+mSurfaceTex	lib/sink/DirectRenderer.h	/^    sp<IGraphicBufferProducer> mSurfaceTex;$/;"	m	struct:android::DirectRenderer
+mSurfaceTex	lib/sink/WifiDisplaySink.h	/^    sp<IGraphicBufferProducer> mSurfaceTex;$/;"	m	struct:android::WifiDisplaySink
+mSurfaceTexture	lib/wfd.cpp	/^    sp<IGraphicBufferProducer> mSurfaceTexture;$/;"	m	struct:android::RemoteDisplayClient	file:
+mSurfaceWidth	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    private int         mSurfaceWidth;$/;"	f	class:WifiDisplaySinkView	file:
+mT1	lib/TimeSyncer.h	/^        int64_t mT1;  \/\/ client timestamp at send$/;"	m	struct:android::TimeSyncer::TimeInfo
+mT2	lib/TimeSyncer.h	/^        int64_t mT2;  \/\/ server timestamp at receive$/;"	m	struct:android::TimeSyncer::TimeInfo
+mT3	lib/TimeSyncer.h	/^        int64_t mT3;  \/\/ server timestamp at send$/;"	m	struct:android::TimeSyncer::TimeInfo
+mT4	lib/TimeSyncer.h	/^        int64_t mT4;  \/\/ client timestamp at receive$/;"	m	struct:android::TimeSyncer::TimeInfo
+mTSParser	lib/MediaReceiver.h	/^    sp<ATSParser> mTSParser;$/;"	m	struct:android::MediaReceiver
+mThread	lib/ANetworkSession.h	/^    sp<Thread> mThread;$/;"	m	struct:android::ANetworkSession
+mTimeOffsetUs	lib/nettest.cpp	/^    int64_t mTimeOffsetUs;$/;"	m	struct:android::TestHandler	file:
+mTimeOffsetUs	lib/rtptest.cpp	/^    int64_t mTimeOffsetUs;$/;"	m	struct:android::TestHandler	file:
+mTimeOffsetUs	lib/sink/WifiDisplaySink.h	/^    int64_t mTimeOffsetUs;$/;"	m	struct:android::WifiDisplaySink
+mTimeOffsetValid	lib/nettest.cpp	/^    bool mTimeOffsetValid;$/;"	m	struct:android::TestHandler	file:
+mTimeOffsetValid	lib/rtptest.cpp	/^    bool mTimeOffsetValid;$/;"	m	struct:android::TestHandler	file:
+mTimeOffsetValid	lib/sink/WifiDisplaySink.h	/^    bool mTimeOffsetValid;$/;"	m	struct:android::WifiDisplaySink
+mTimeReferenceNTP	lib/SNTPClient.h	/^    uint64_t mTimeReferenceNTP;$/;"	m	struct:android::SNTPClient
+mTimeReferenceUs	lib/SNTPClient.h	/^    int64_t mTimeReferenceUs;$/;"	m	struct:android::SNTPClient
+mTimeSyncer	lib/nettest.cpp	/^    sp<TimeSyncer> mTimeSyncer;$/;"	m	struct:android::TestHandler	file:
+mTimeSyncer	lib/rtptest.cpp	/^    sp<TimeSyncer> mTimeSyncer;$/;"	m	struct:android::TestHandler	file:
+mTimeSyncer	lib/sink/WifiDisplaySink.h	/^    sp<TimeSyncer> mTimeSyncer;$/;"	m	struct:android::WifiDisplaySink
+mTimeSyncerStarted	lib/rtptest.cpp	/^    bool mTimeSyncerStarted;$/;"	m	struct:android::TestHandler	file:
+mTimeUs	lib/ANetworkSession.cpp	/^        int64_t mTimeUs;$/;"	m	struct:android::ANetworkSession::Session::Fragment	file:
+mTimeUs	lib/sink/DirectRenderer.cpp	/^        int64_t mTimeUs;$/;"	m	struct:android::DirectRenderer::AudioRenderer::BufferInfo	file:
+mTimeUs	lib/sink/DirectRenderer.h	/^        int64_t mTimeUs;$/;"	m	struct:android::DirectRenderer::OutputInfo
+mTimeoutGeneration	lib/TimeSyncer.h	/^    int32_t mTimeoutGeneration;$/;"	m	struct:android::TimeSyncer
+mTotalTimeUs	lib/TimeSyncer.h	/^    double mTotalTimeUs;$/;"	m	struct:android::TimeSyncer
+mTrackInfos	lib/MediaReceiver.h	/^    Vector<TrackInfo> mTrackInfos;$/;"	m	struct:android::MediaReceiver
+mUDPRetries	lib/ANetworkSession.cpp	/^    int32_t mUDPRetries;$/;"	m	struct:android::ANetworkSession::Session	file:
+mUDPSession	lib/TimeSyncer.h	/^    int32_t mUDPSession;$/;"	m	struct:android::TimeSyncer
+mUpX	src/com/lc/wifidisplaysink/HidDeviceActivity.java	/^    private int mDownX= 0xffff, mDownY= 0xffff, mUpX= 0xffff, mUpY = 0xffff;$/;"	f	class:HidDeviceActivity	file:
+mUpX	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    private int mDownX= 0xffff, mDownY= 0xffff, mUpX= 0xffff, mUpY = 0xffff;$/;"	f	class:WifiDisplaySinkView	file:
+mUpY	src/com/lc/wifidisplaysink/HidDeviceActivity.java	/^    private int mDownX= 0xffff, mDownY= 0xffff, mUpX= 0xffff, mUpY = 0xffff;$/;"	f	class:HidDeviceActivity	file:
+mUpY	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    private int mDownX= 0xffff, mDownY= 0xffff, mUpX= 0xffff, mUpY = 0xffff;$/;"	f	class:WifiDisplaySinkView	file:
+mUsingTCPInterleaving	lib/sink/WifiDisplaySink.h	/^    bool mUsingTCPInterleaving;$/;"	m	struct:android::WifiDisplaySink
+mUsingTCPTransport	lib/sink/WifiDisplaySink.h	/^    bool mUsingTCPTransport;$/;"	m	struct:android::WifiDisplaySink
+mVideoOutputBuffers	lib/sink/DirectRenderer.h	/^    List<OutputInfo> mVideoOutputBuffers;$/;"	m	struct:android::DirectRenderer
+mVideoRenderPending	lib/sink/DirectRenderer.h	/^    bool mVideoRenderPending;$/;"	m	struct:android::DirectRenderer
+mWfdSinkLooper	lib/sink/WifiDisplaySink.h	/^    sp<ALooper> mWfdSinkLooper;$/;"	m	struct:android::WifiDisplaySink
+mWifiDisplaySink	jni/JniWifiDisplaySink.cpp	/^    sp<WifiDisplaySink> mWifiDisplaySink;$/;"	m	struct:WfdNativeContext	file:
+mWifiDisplaySink	src/com/lc/wifidisplaysink/WifiDisplaySink.java	/^        private WifiDisplaySink mWifiDisplaySink;$/;"	f	class:WifiDisplaySink.EventHandler	file:
+mWifiDisplaySinkView	src/com/lc/wifidisplaysink/WifiDisplaySinkActivity.java	/^    private WifiDisplaySinkView mWifiDisplaySinkView;$/;"	f	class:WifiDisplaySinkActivity	file:
+mWifiManager	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    private WifiManager mWifiManager;$/;"	f	class:WaitingConnectionActivity	file:
+mWifiP2pManager	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    private WifiP2pManager mWifiP2pManager;$/;"	f	class:WaitingConnectionActivity	file:
+main	lib/nettest.cpp	/^int main(int argc, char **argv) {$/;"	f
+main	lib/rtptest.cpp	/^int main(int argc, char **argv) {$/;"	f
+main	lib/udptest.cpp	/^int main(int argc, char **argv) {$/;"	f
+main	lib/wfd.cpp	/^int main(int argc, char **argv) {$/;"	f
+makeAssembler	lib/rtp/RTPReceiver.cpp	/^sp<RTPReceiver::Assembler> RTPReceiver::makeAssembler(uint8_t packetType) {$/;"	f	class:android::RTPReceiver
+makeNTP	lib/SNTPClient.cpp	/^uint64_t SNTPClient::makeNTP(uint64_t deltaUs) {$/;"	f	class:android::SNTPClient
+modifyPacketStatus	lib/rtp/RTPReceiver.cpp	/^void RTPReceiver::Source::modifyPacketStatus(int32_t extSeqNo, uint32_t mask) {$/;"	f	class:android::RTPReceiver::Source
+moveMouseTo	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^     void moveMouseTo(int localX,  int localY) {$/;"	m	class:WifiDisplaySinkView
+native_init	src/com/lc/wifidisplaysink/WifiDisplaySink.java	/^    private static native final void native_init();$/;"	m	class:WifiDisplaySink	file:
+native_invokeSink	src/com/lc/wifidisplaysink/WifiDisplaySink.java	/^    private native final void native_invokeSink(String ip, int port);$/;"	m	class:WifiDisplaySink	file:
+native_setVideoSurface	src/com/lc/wifidisplaysink/WifiDisplaySink.java	/^    private native final void native_setVideoSurface(Surface surface);$/;"	m	class:WifiDisplaySink	file:
+native_setup	src/com/lc/wifidisplaysink/WifiDisplaySink.java	/^    private native final void native_setup(Object sink_this, int special, int isN10);$/;"	m	class:WifiDisplaySink	file:
+notify	jni/JniWifiDisplaySink.cpp	/^void JniWfdSinkListener::notify(int msg, int ext1, int ext2, const Parcel *obj) {$/;"	f	class:JniWfdSinkListener
+notify	lib/ANetworkSession.cpp	/^void ANetworkSession::Session::notify(NotificationReason reason) {$/;"	f	class:android::ANetworkSession::Session
+notify	lib/sink/TunnelRenderer.cpp	/^    virtual void notify(int msg, int ext1, int ext2, const Parcel *obj) {$/;"	f	struct:android::TunnelRenderer::PlayerClient
+notifyError	lib/ANetworkSession.cpp	/^void ANetworkSession::Session::notifyError($/;"	f	class:android::ANetworkSession::Session
+notifyError	lib/MediaReceiver.cpp	/^void MediaReceiver::notifyError(status_t err) {$/;"	f	class:android::MediaReceiver
+notifyError	lib/TimeSyncer.cpp	/^void TimeSyncer::notifyError(status_t err) {$/;"	f	class:android::TimeSyncer
+notifyError	lib/rtp/RTPReceiver.cpp	/^void RTPReceiver::notifyError(status_t err) {$/;"	f	class:android::RTPReceiver
+notifyError	lib/rtp/RTPSender.cpp	/^void RTPSender::notifyError(status_t err) {$/;"	f	class:android::RTPSender
+notifyInitDone	lib/MediaReceiver.cpp	/^void MediaReceiver::notifyInitDone(status_t err) {$/;"	f	class:android::MediaReceiver
+notifyInitDone	lib/rtp/RTPReceiver.cpp	/^void RTPReceiver::notifyInitDone(status_t err) {$/;"	f	class:android::RTPReceiver
+notifyInitDone	lib/rtp/RTPSender.cpp	/^void RTPSender::notifyInitDone(status_t err) {$/;"	f	class:android::RTPSender
+notifyNetworkStall	lib/rtp/RTPSender.cpp	/^void RTPSender::notifyNetworkStall(size_t numBytesQueued) {$/;"	f	class:android::RTPSender
+notifyOffset	lib/TimeSyncer.cpp	/^void TimeSyncer::notifyOffset() {$/;"	f	class:android::TimeSyncer
+notifyPacketLost	lib/MediaReceiver.cpp	/^void MediaReceiver::notifyPacketLost() {$/;"	f	class:android::MediaReceiver
+notifyPacketLost	lib/rtp/RTPReceiver.cpp	/^void RTPReceiver::notifyPacketLost() {$/;"	f	class:android::RTPReceiver
+onActivityResult	src/com/lc/wifidisplaysink/HIDLauncher.java	/^    public void onActivityResult(int requestCode, int resultCode, Intent data) {$/;"	m	class:HIDLauncher
+onActivityResult_BluetoothEnable	src/com/lc/wifidisplaysink/HIDLauncher.java	/^    private void onActivityResult_BluetoothEnable(int requestCode, int resultCode,$/;"	m	class:HIDLauncher	file:
+onActivityResult_Discovery	src/com/lc/wifidisplaysink/HIDLauncher.java	/^    private void onActivityResult_Discovery(int requestCode, int resultCode,$/;"	m	class:HIDLauncher	file:
+onBackPressed	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    public void onBackPressed() {$/;"	m	class:WaitingConnectionActivity
+onBackPressed	src/com/lc/wifidisplaysink/WifiDisplaySinkActivity.java	/^    public void onBackPressed() {$/;"	m	class:WifiDisplaySinkActivity
+onBind	src/com/lc/wifidisplaysink/HidDeviceAdapterService.java	/^    public IBinder onBind(Intent intent) {$/;"	m	class:HidDeviceAdapterService
+onBufferAvailable	lib/sink/TunnelRenderer.cpp	/^void TunnelRenderer::StreamSource::onBufferAvailable(size_t index) {$/;"	f	class:android::TunnelRenderer::StreamSource
+onClick	src/com/lc/wifidisplaysink/HidDeviceActivity.java	/^    public void onClick(View v) {    $/;"	m	class:HidDeviceActivity
+onConnectionChanged	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^        private void onConnectionChanged(Context context, Intent intent)  {$/;"	m	class:WaitingConnectionActivity.WiFiDirectBroadcastReceiver	file:
+onCreate	src/com/lc/wifidisplaysink/HIDLauncher.java	/^    public void onCreate(Bundle savedInstanceState) {$/;"	m	class:HIDLauncher
+onCreate	src/com/lc/wifidisplaysink/HidDeviceActivity.java	/^    public void onCreate(Bundle savedInstanceState) {$/;"	m	class:HidDeviceActivity
+onCreate	src/com/lc/wifidisplaysink/HidDeviceAdapterService.java	/^    public void onCreate() {$/;"	m	class:HidDeviceAdapterService
+onCreate	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    public void onCreate(Bundle savedInstanceState) {$/;"	m	class:WaitingConnectionActivity
+onCreate	src/com/lc/wifidisplaysink/WifiDisplaySinkActivity.java	/^    public void onCreate(Bundle savedInstanceState) {$/;"	m	class:WifiDisplaySinkActivity
+onDecoderNotify	lib/sink/DirectRenderer.cpp	/^void DirectRenderer::DecoderContext::onDecoderNotify() {$/;"	f	class:android::DirectRenderer::DecoderContext
+onDecoderNotify	lib/sink/DirectRenderer.cpp	/^void DirectRenderer::onDecoderNotify(const sp<AMessage> &msg) {$/;"	f	class:android::DirectRenderer
+onDestroy	src/com/lc/wifidisplaysink/HidDeviceActivity.java	/^    protected void onDestroy() {$/;"	m	class:HidDeviceActivity
+onDestroy	src/com/lc/wifidisplaysink/HidDeviceAdapterService.java	/^    public void onDestroy() {$/;"	m	class:HidDeviceAdapterService
+onDestroy	src/com/lc/wifidisplaysink/WifiDisplaySinkActivity.java	/^    protected void onDestroy() {$/;"	m	class:WifiDisplaySinkActivity
+onDeviceChanged	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^        private void onDeviceChanged(Context context, Intent intent) {$/;"	m	class:WaitingConnectionActivity.WiFiDirectBroadcastReceiver	file:
+onDisplayConnected	lib/wfd.cpp	/^void RemoteDisplayClient::onDisplayConnected($/;"	f	class:android::RemoteDisplayClient
+onDisplayDisconnected	lib/wfd.cpp	/^void RemoteDisplayClient::onDisplayDisconnected() {$/;"	f	class:android::RemoteDisplayClient
+onDisplayError	lib/wfd.cpp	/^void RemoteDisplayClient::onDisplayError(int32_t error) {$/;"	f	class:android::RemoteDisplayClient
+onError	src/com/lc/wifidisplaysink/WifiDisplaySink.java	/^            boolean onError(WifiDisplaySink sink, int what, int extra);$/;"	m	interface:WifiDisplaySink.OnErrorListener
+onGetParameterRequest	lib/sink/WifiDisplaySink.cpp	/^void WifiDisplaySink::onGetParameterRequest($/;"	f	class:android::WifiDisplaySink
+onMediaReceiverNotify	lib/sink/WifiDisplaySink.cpp	/^void WifiDisplaySink::onMediaReceiverNotify(const sp<AMessage> &msg) {$/;"	f	class:android::WifiDisplaySink
+onMessageReceived	lib/MediaReceiver.cpp	/^void MediaReceiver::onMessageReceived(const sp<AMessage> &msg) {$/;"	f	class:android::MediaReceiver
+onMessageReceived	lib/TimeSyncer.cpp	/^void TimeSyncer::onMessageReceived(const sp<AMessage> &msg) {$/;"	f	class:android::TimeSyncer
+onMessageReceived	lib/nettest.cpp	/^void TestHandler::onMessageReceived(const sp<AMessage> &msg) {$/;"	f	class:android::TestHandler
+onMessageReceived	lib/rtp/RTPReceiver.cpp	/^void RTPReceiver::Source::onMessageReceived(const sp<AMessage> &msg) {$/;"	f	class:android::RTPReceiver::Source
+onMessageReceived	lib/rtp/RTPReceiver.cpp	/^void RTPReceiver::onMessageReceived(const sp<AMessage> &msg) {$/;"	f	class:android::RTPReceiver
+onMessageReceived	lib/rtp/RTPSender.cpp	/^void RTPSender::onMessageReceived(const sp<AMessage> &msg) {$/;"	f	class:android::RTPSender
+onMessageReceived	lib/rtptest.cpp	/^void TestHandler::onMessageReceived(const sp<AMessage> &msg) {$/;"	f	class:android::TestHandler
+onMessageReceived	lib/sink/DirectRenderer.cpp	/^void DirectRenderer::AudioRenderer::onMessageReceived($/;"	f	class:android::DirectRenderer::AudioRenderer
+onMessageReceived	lib/sink/DirectRenderer.cpp	/^void DirectRenderer::DecoderContext::onMessageReceived($/;"	f	class:android::DirectRenderer::DecoderContext
+onMessageReceived	lib/sink/DirectRenderer.cpp	/^void DirectRenderer::onMessageReceived(const sp<AMessage> &msg) {$/;"	f	class:android::DirectRenderer
+onMessageReceived	lib/sink/TunnelRenderer.cpp	/^void TunnelRenderer::onMessageReceived(const sp<AMessage> &msg) {$/;"	f	class:android::TunnelRenderer
+onMessageReceived	lib/sink/WifiDisplaySink.cpp	/^void WifiDisplaySink::onMessageReceived(const sp<AMessage> &msg) {$/;"	f	class:android::WifiDisplaySink
+onNetNotify	lib/rtp/RTPReceiver.cpp	/^void RTPReceiver::onNetNotify(bool isRTP, const sp<AMessage> &msg) {$/;"	f	class:android::RTPReceiver
+onNetNotify	lib/rtp/RTPSender.cpp	/^void RTPSender::onNetNotify(bool isRTP, const sp<AMessage> &msg) {$/;"	f	class:android::RTPSender
+onOptionsRequest	lib/sink/WifiDisplaySink.cpp	/^void WifiDisplaySink::onOptionsRequest($/;"	f	class:android::WifiDisplaySink
+onPacketReceived	lib/rtp/RTPReceiver.cpp	/^void RTPReceiver::Source::onPacketReceived($/;"	f	class:android::RTPReceiver::Source
+onPause	src/com/lc/wifidisplaysink/HIDLauncher.java	/^    protected void onPause() {$/;"	m	class:HIDLauncher
+onPause	src/com/lc/wifidisplaysink/HidDeviceActivity.java	/^    protected void onPause() {$/;"	m	class:HidDeviceActivity
+onPause	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    protected void onPause() {$/;"	m	class:WaitingConnectionActivity
+onPause	src/com/lc/wifidisplaysink/WifiDisplaySinkActivity.java	/^    protected void onPause() {$/;"	m	class:WifiDisplaySinkActivity
+onPeersChanged	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^        private void onPeersChanged(Context context, Intent intent) {$/;"	m	class:WaitingConnectionActivity.WiFiDirectBroadcastReceiver	file:
+onPushAudio	lib/sink/DirectRenderer.cpp	/^void DirectRenderer::AudioRenderer::onPushAudio() {$/;"	f	class:android::DirectRenderer::AudioRenderer
+onQueueAccessUnit	lib/sink/DirectRenderer.cpp	/^void DirectRenderer::onQueueAccessUnit(const sp<AMessage> &msg) {$/;"	f	class:android::DirectRenderer
+onRTCPData	lib/rtp/RTPReceiver.cpp	/^status_t RTPReceiver::onRTCPData(const sp<ABuffer> &data) {$/;"	f	class:android::RTPReceiver
+onRTCPData	lib/rtp/RTPSender.cpp	/^status_t RTPSender::onRTCPData(const sp<ABuffer> &buffer) {$/;"	f	class:android::RTPSender
+onRTPData	lib/rtp/RTPReceiver.cpp	/^status_t RTPReceiver::onRTPData(const sp<ABuffer> &buffer) {$/;"	f	class:android::RTPReceiver
+onReceive	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^        public void onReceive(Context context, Intent intent) {$/;"	m	class:WaitingConnectionActivity.WiFiDirectBroadcastReceiver
+onReceiveClientData	lib/sink/WifiDisplaySink.cpp	/^void WifiDisplaySink::onReceiveClientData(const sp<AMessage> &msg) {$/;"	f	class:android::WifiDisplaySink
+onReceiveIDRFrameRequestResponse	lib/sink/WifiDisplaySink.cpp	/^status_t WifiDisplaySink::onReceiveIDRFrameRequestResponse($/;"	f	class:android::WifiDisplaySink
+onReceiveM2Response	lib/sink/WifiDisplaySink.cpp	/^status_t WifiDisplaySink::onReceiveM2Response($/;"	f	class:android::WifiDisplaySink
+onReceivePlayResponse	lib/sink/WifiDisplaySink.cpp	/^status_t WifiDisplaySink::onReceivePlayResponse($/;"	f	class:android::WifiDisplaySink
+onReceiveSetupResponse	lib/sink/WifiDisplaySink.cpp	/^status_t WifiDisplaySink::onReceiveSetupResponse($/;"	f	class:android::WifiDisplaySink
+onReceiverNotify	lib/MediaReceiver.cpp	/^void MediaReceiver::onReceiverNotify(const sp<AMessage> &msg) {$/;"	f	class:android::MediaReceiver
+onRenderVideo	lib/sink/DirectRenderer.cpp	/^void DirectRenderer::onRenderVideo() {$/;"	f	class:android::DirectRenderer
+onResume	src/com/lc/wifidisplaysink/HIDLauncher.java	/^    protected void onResume() {$/;"	m	class:HIDLauncher
+onResume	src/com/lc/wifidisplaysink/HidDeviceActivity.java	/^    protected void onResume() {$/;"	m	class:HidDeviceActivity
+onResume	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    protected void onResume() {$/;"	m	class:WaitingConnectionActivity
+onResume	src/com/lc/wifidisplaysink/WifiDisplaySinkActivity.java	/^    protected void onResume() {$/;"	m	class:WifiDisplaySinkActivity
+onSendRR	lib/rtp/RTPReceiver.cpp	/^void RTPReceiver::onSendRR() {$/;"	f	class:android::RTPReceiver
+onSetFormat	lib/sink/DirectRenderer.cpp	/^void DirectRenderer::onSetFormat(const sp<AMessage> &msg) {$/;"	f	class:android::DirectRenderer
+onSetParameterRequest	lib/sink/WifiDisplaySink.cpp	/^void WifiDisplaySink::onSetParameterRequest($/;"	f	class:android::WifiDisplaySink
+onStartCommand	src/com/lc/wifidisplaysink/HidDeviceAdapterService.java	/^    public int onStartCommand(Intent intent, int flags, int startId) {$/;"	m	class:HidDeviceAdapterService
+onStateChanged	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^        private void onStateChanged(Context context, Intent intent) {$/;"	m	class:WaitingConnectionActivity.WiFiDirectBroadcastReceiver	file:
+onTouch	src/com/lc/wifidisplaysink/HidDeviceActivity.java	/^    public boolean onTouch(View v, MotionEvent event) {$/;"	m	class:HidDeviceActivity
+onTouchEvent	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    public boolean onTouchEvent(MotionEvent event) {$/;"	m	class:WifiDisplaySinkView
+operator <	lib/sink/WifiDisplaySink.h	/^        bool operator<(const ResponseID &other) const {$/;"	f	struct:android::WifiDisplaySink::ResponseID
+p2pDeviceIsConnected	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    public boolean p2pDeviceIsConnected(WifiP2pDevice device) {$/;"	m	class:WaitingConnectionActivity
+p2pDiscoverPeers	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    public void p2pDiscoverPeers(View view) {$/;"	m	class:WaitingConnectionActivity
+p2pInitialize	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    public void p2pInitialize() {$/;"	m	class:WaitingConnectionActivity
+p2pIsNull	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    private boolean p2pIsNull() {$/;"	m	class:WaitingConnectionActivity	file:
+p2pIsSupported	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    private boolean p2pIsSupported() {$/;"	m	class:WaitingConnectionActivity	file:
+parse	lib/Parameters.cpp	/^status_t Parameters::parse(const char *data, size_t size) {$/;"	f	class:android::Parameters
+parseAPP	lib/rtp/RTPSender.cpp	/^status_t RTPSender::parseAPP(const uint8_t *data, size_t size) {$/;"	f	class:android::RTPSender
+parseArp	src/com/lc/wifidisplaysink/RarpImpl.java	/^    private ArrayList<ArpType> parseArp(ArrayList<String> arpLines) {$/;"	m	class:RarpImpl	file:
+parseArpLine	src/com/lc/wifidisplaysink/RarpImpl.java	/^    private ArpType parseArpLine(String line) {$/;"	m	class:RarpImpl	file:
+parseFormatSpec	lib/VideoFormats.cpp	/^bool VideoFormats::parseFormatSpec(const char *spec) {$/;"	f	class:android::VideoFormats
+parseH264Codec	lib/VideoFormats.cpp	/^bool VideoFormats::parseH264Codec(const char *spec) {$/;"	f	class:android::VideoFormats
+parseReceiverReport	lib/rtp/RTPSender.cpp	/^status_t RTPSender::parseReceiverReport(const uint8_t *data, size_t size) {$/;"	f	class:android::RTPSender
+parseTSFB	lib/rtp/RTPSender.cpp	/^status_t RTPSender::parseTSFB(const uint8_t *data, size_t size) {$/;"	f	class:android::RTPSender
+port	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^        private final int port;$/;"	f	class:WaitingConnectionActivity.AvoidANRThread	file:
+postAccessUnit	lib/MediaReceiver.cpp	/^void MediaReceiver::postAccessUnit($/;"	f	class:android::MediaReceiver
+postAccessUnit	lib/rtp/RTPAssembler.cpp	/^void RTPReceiver::Assembler::postAccessUnit($/;"	f	class:android::RTPReceiver::Assembler
+postDeclareLostTimer	lib/rtp/RTPReceiver.cpp	/^void RTPReceiver::Source::postDeclareLostTimer(int64_t timeUs) {$/;"	f	class:android::RTPReceiver::Source
+postEventFromNative	src/com/lc/wifidisplaysink/WifiDisplaySink.java	/^    private static void postEventFromNative(Object sink_ref,$/;"	m	class:WifiDisplaySink	file:
+postRetransmitTimer	lib/rtp/RTPReceiver.cpp	/^void RTPReceiver::Source::postRetransmitTimer(int64_t timeUs) {$/;"	f	class:android::RTPReceiver::Source
+postSendPacket	lib/TimeSyncer.cpp	/^void TimeSyncer::postSendPacket(int64_t delayUs) {$/;"	f	class:android::TimeSyncer
+postTimeout	lib/TimeSyncer.cpp	/^void TimeSyncer::postTimeout() {$/;"	f	class:android::TimeSyncer
+post_event	jni/JniWifiDisplaySink.cpp	/^    jmethodID   post_event;$/;"	m	struct:fields_t	file:
+prepareWfdNativeContext	jni/JniWifiDisplaySink.cpp	/^static void prepareWfdNativeContext(JNIEnv* env, jobject thiz)$/;"	f	file:
+processPacket	lib/rtp/RTPAssembler.cpp	/^status_t RTPReceiver::H264Assembler::processPacket(const sp<ABuffer> &packet) {$/;"	f	class:android::RTPReceiver::H264Assembler
+processPacket	lib/rtp/RTPAssembler.cpp	/^status_t RTPReceiver::TSAssembler::processPacket(const sp<ABuffer> &packet) {$/;"	f	class:android::RTPReceiver::TSAssembler
+profile	lib/VideoFormats.h	/^        unsigned char profile, level;$/;"	m	struct:android::VideoFormats::config_t
+queueAVCBuffer	lib/rtp/RTPSender.cpp	/^status_t RTPSender::queueAVCBuffer($/;"	f	class:android::RTPSender
+queueAccessUnit	lib/sink/DirectRenderer.cpp	/^void DirectRenderer::queueAccessUnit($/;"	f	class:android::DirectRenderer
+queueBuffer	lib/rtp/RTPSender.cpp	/^status_t RTPSender::queueBuffer($/;"	f	class:android::RTPSender
+queueBuffer	lib/sink/TunnelRenderer.cpp	/^void TunnelRenderer::queueBuffer(const sp<ABuffer> &buffer) {$/;"	f	class:android::TunnelRenderer
+queueDecoderInputBuffers	lib/sink/DirectRenderer.cpp	/^void DirectRenderer::DecoderContext::queueDecoderInputBuffers() {$/;"	f	class:android::DirectRenderer::DecoderContext
+queueInputBuffer	lib/sink/DirectRenderer.cpp	/^void DirectRenderer::AudioRenderer::queueInputBuffer($/;"	f	class:android::DirectRenderer::AudioRenderer
+queueInputBuffer	lib/sink/DirectRenderer.cpp	/^void DirectRenderer::DecoderContext::queueInputBuffer($/;"	f	class:android::DirectRenderer::DecoderContext
+queueOutputBuffer	lib/sink/DirectRenderer.cpp	/^void DirectRenderer::DecoderContext::queueOutputBuffer($/;"	f	class:android::DirectRenderer::DecoderContext
+queueOutputBuffer	lib/sink/DirectRenderer.cpp	/^void DirectRenderer::queueOutputBuffer($/;"	f	class:android::DirectRenderer
+queuePacket	lib/rtp/RTPReceiver.cpp	/^void RTPReceiver::Source::queuePacket(const sp<ABuffer> &packet) {$/;"	f	class:android::RTPReceiver::Source
+queueRawPacket	lib/rtp/RTPSender.cpp	/^status_t RTPSender::queueRawPacket($/;"	f	class:android::RTPSender
+queueTSPackets	lib/rtp/RTPSender.cpp	/^status_t RTPSender::queueTSPackets($/;"	f	class:android::RTPSender
+readFile	src/com/lc/wifidisplaysink/RarpImpl.java	/^    private ArrayList<String> readFile(String path) {$/;"	m	class:RarpImpl	file:
+readMore	lib/ANetworkSession.cpp	/^status_t ANetworkSession::Session::readMore() {$/;"	f	class:android::ANetworkSession::Session
+readMore	lib/rtptest.cpp	/^status_t TestHandler::readMore() {$/;"	f	class:android::TestHandler
+readTimeStamp	lib/SNTPClient.cpp	/^uint64_t SNTPClient::readTimeStamp(const uint8_t *dst) {$/;"	f	class:android::SNTPClient
+reconnectOrEnableDiscovery	src/com/lc/wifidisplaysink/HIDLauncher.java	/^    public void reconnectOrEnableDiscovery() {$/;"	m	class:HIDLauncher
+registerBroadcastReceiver	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    private void registerBroadcastReceiver() {$/;"	m	class:WaitingConnectionActivity	file:
+registerPacketType	lib/rtp/RTPReceiver.cpp	/^status_t RTPReceiver::registerPacketType($/;"	f	class:android::RTPReceiver
+registerResponseHandler	lib/sink/WifiDisplaySink.cpp	/^void WifiDisplaySink::registerResponseHandler($/;"	f	class:android::WifiDisplaySink
+releaseOutputBuffer	lib/sink/DirectRenderer.cpp	/^status_t DirectRenderer::DecoderContext::releaseOutputBuffer(size_t index) {$/;"	f	class:android::DirectRenderer::DecoderContext
+renderOutputBufferAndRelease	lib/sink/DirectRenderer.cpp	/^status_t DirectRenderer::DecoderContext::renderOutputBufferAndRelease($/;"	f	class:android::DirectRenderer::DecoderContext
+requestRetransmission	lib/rtp/RTPReceiver.cpp	/^void RTPReceiver::requestRetransmission(uint32_t senderSSRC, int32_t extSeqNo) {$/;"	f	class:android::RTPReceiver
+requestTime	lib/SNTPClient.cpp	/^status_t SNTPClient::requestTime(const char *host) {$/;"	f	class:android::SNTPClient
+reset	lib/rtp/RTPAssembler.cpp	/^void RTPReceiver::H264Assembler::reset() {$/;"	f	class:android::RTPReceiver::H264Assembler
+resetSourceMouse	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    void resetSourceMouse(){$/;"	m	class:WifiDisplaySinkView
+resync	lib/rtp/RTPReceiver.cpp	/^void RTPReceiver::Source::resync() {$/;"	f	class:android::RTPReceiver::Source
+run	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^        public void run() {$/;"	m	class:WaitingConnectionActivity.AvoidANRThread
+runConnectingAnimation	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    private void runConnectingAnimation() {$/;"	m	class:WaitingConnectionActivity	file:
+sUserAgent	lib/sink/WifiDisplaySink.cpp	/^const AString WifiDisplaySink::sUserAgent = MakeUserAgent();$/;"	m	class:android::WifiDisplaySink	file:
+sUserAgent	lib/sink/WifiDisplaySink.h	/^    static const AString sUserAgent;$/;"	m	struct:android::WifiDisplaySink
+scheduleDecoderNotification	lib/sink/DirectRenderer.cpp	/^void DirectRenderer::DecoderContext::scheduleDecoderNotification() {$/;"	f	class:android::DirectRenderer::DecoderContext
+schedulePushIfNecessary	lib/sink/DirectRenderer.cpp	/^void DirectRenderer::AudioRenderer::schedulePushIfNecessary() {$/;"	f	class:android::DirectRenderer::AudioRenderer
+scheduleSendRR	lib/rtp/RTPReceiver.cpp	/^void RTPReceiver::scheduleSendRR() {$/;"	f	class:android::RTPReceiver
+scheduleVideoRenderIfNecessary	lib/sink/DirectRenderer.cpp	/^void DirectRenderer::scheduleVideoRenderIfNecessary() {$/;"	f	class:android::DirectRenderer
+searchArp	src/com/lc/wifidisplaysink/RarpImpl.java	/^    private ArpType searchArp(ArrayList<ArpType> arps, String netIf) {$/;"	m	class:RarpImpl	file:
+sendErrorResponse	lib/sink/WifiDisplaySink.cpp	/^void WifiDisplaySink::sendErrorResponse($/;"	f	class:android::WifiDisplaySink
+sendIDRFrameRequest	lib/sink/WifiDisplaySink.cpp	/^status_t WifiDisplaySink::sendIDRFrameRequest(int32_t sessionID) {$/;"	f	class:android::WifiDisplaySink
+sendLeftClickReport	src/com/lc/wifidisplaysink/HidDeviceAdapterService.java	/^     public void sendLeftClickReport() {$/;"	m	class:HidDeviceAdapterService
+sendM2	lib/sink/WifiDisplaySink.cpp	/^status_t WifiDisplaySink::sendM2(int32_t sessionID) {$/;"	f	class:android::WifiDisplaySink
+sendMappedReport	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    void sendMappedReport(int deltaX, int deltaY){$/;"	m	class:WifiDisplaySinkView
+sendMouseMoveReport	src/com/lc/wifidisplaysink/HidDeviceAdapterService.java	/^    public void sendMouseMoveReport(int delta_x, int delta_y) {$/;"	m	class:HidDeviceAdapterService
+sendPlay	lib/sink/WifiDisplaySink.cpp	/^status_t WifiDisplaySink::sendPlay(int32_t sessionID, const char *uri) {$/;"	f	class:android::WifiDisplaySink
+sendRTPPacket	lib/rtp/RTPSender.cpp	/^status_t RTPSender::sendRTPPacket($/;"	f	class:android::RTPSender
+sendRequest	lib/ANetworkSession.cpp	/^status_t ANetworkSession::Session::sendRequest($/;"	f	class:android::ANetworkSession::Session
+sendRequest	lib/ANetworkSession.cpp	/^status_t ANetworkSession::sendRequest($/;"	f	class:android::ANetworkSession
+sendSetup	lib/sink/WifiDisplaySink.cpp	/^status_t WifiDisplaySink::sendSetup(int32_t sessionID, const char *uri) {$/;"	f	class:android::WifiDisplaySink
+sentLeftClick	src/com/lc/wifidisplaysink/HidDeviceActivity.java	/^    public void sentLeftClick() {$/;"	m	class:HidDeviceActivity
+sessionID	lib/ANetworkSession.cpp	/^int32_t ANetworkSession::Session::sessionID() const {$/;"	f	class:android::ANetworkSession::Session
+setBuffers	lib/sink/TunnelRenderer.cpp	/^void TunnelRenderer::StreamSource::setBuffers($/;"	f	class:android::TunnelRenderer::StreamSource
+setDiscoverable	src/com/lc/wifidisplaysink/HIDLauncher.java	/^    private void setDiscoverable(int requestDiscoverableBt) {$/;"	m	class:HIDLauncher	file:
+setDisplay	lib/sink/WifiDisplaySink.cpp	/^void WifiDisplaySink::setDisplay(const sp<IGraphicBufferProducer>& bufferProducer) {$/;"	f	class:android::WifiDisplaySink
+setDisplay	src/com/lc/wifidisplaysink/WifiDisplaySink.java	/^    public void setDisplay(SurfaceHolder sh) {$/;"	m	class:WifiDisplaySink
+setFormat	lib/sink/DirectRenderer.cpp	/^void DirectRenderer::setFormat(size_t trackIndex, const sp<AMessage> &format) {$/;"	f	class:android::DirectRenderer
+setHIDDiscoverable	src/com/lc/wifidisplaysink/HidDeviceAdapterService.java	/^    private void setHIDDiscoverable() {$/;"	m	class:HidDeviceAdapterService	file:
+setHidDeviceAdapterService	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    public void setHidDeviceAdapterService(HidDeviceAdapterService service) {$/;"	m	class:WifiDisplaySinkView
+setListener	lib/sink/TunnelRenderer.cpp	/^void TunnelRenderer::StreamSource::setListener($/;"	f	class:android::TunnelRenderer::StreamSource
+setListener	lib/sink/WifiDisplaySink.cpp	/^status_t WifiDisplaySink::setListener(const sp<WfdSinkListener>& listener) {$/;"	f	class:android::WifiDisplaySink
+setMode	lib/ANetworkSession.cpp	/^void ANetworkSession::Session::setMode(Mode mode) {$/;"	f	class:android::ANetworkSession::Session
+setNativeResolution	lib/VideoFormats.cpp	/^void VideoFormats::setNativeResolution(ResolutionType type, size_t index) {$/;"	f	class:android::VideoFormats
+setOnErrorListener	src/com/lc/wifidisplaysink/WifiDisplaySink.java	/^    public void setOnErrorListener(OnErrorListener listener)$/;"	m	class:WifiDisplaySink
+setOnErrorListener	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    public void setOnErrorListener(OnErrorListener l)$/;"	m	class:WifiDisplaySinkView
+setProfileLevel	lib/VideoFormats.cpp	/^void VideoFormats::setProfileLevel($/;"	f	class:android::VideoFormats
+setResolutionEnabled	lib/VideoFormats.cpp	/^void VideoFormats::setResolutionEnabled($/;"	f	class:android::VideoFormats
+setSourceIpAddr	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    public void setSourceIpAddr(String sourceAddr, int sourcePort) {$/;"	m	class:WifiDisplaySinkView
+signalDiscontinuity	lib/rtp/RTPAssembler.cpp	/^void RTPReceiver::H264Assembler::signalDiscontinuity() {$/;"	f	class:android::RTPReceiver::H264Assembler
+signalDiscontinuity	lib/rtp/RTPAssembler.cpp	/^void RTPReceiver::TSAssembler::signalDiscontinuity() {$/;"	f	class:android::RTPReceiver::TSAssembler
+sleepMs	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    void sleepMs(int timeMs) {$/;"	m	class:WifiDisplaySinkView
+socket	lib/ANetworkSession.cpp	/^int ANetworkSession::Session::socket() const {$/;"	f	class:android::ANetworkSession::Session
+start	lib/ANetworkSession.cpp	/^status_t ANetworkSession::start() {$/;"	f	class:android::ANetworkSession
+start	lib/sink/WifiDisplaySink.cpp	/^void WifiDisplaySink::start(const char *sourceHost, int32_t sourcePort) {$/;"	f	class:android::WifiDisplaySink
+start	lib/sink/WifiDisplaySink.cpp	/^void WifiDisplaySink::start(const char *uri) {$/;"	f	class:android::WifiDisplaySink
+startClient	lib/TimeSyncer.cpp	/^void TimeSyncer::startClient(const char *remoteHost, unsigned remotePort) {$/;"	f	class:android::TimeSyncer
+startHidDevceActivity	src/com/lc/wifidisplaysink/HIDLauncher.java	/^    private void startHidDevceActivity() {$/;"	m	class:HIDLauncher	file:
+startServer	lib/TimeSyncer.cpp	/^void TimeSyncer::startServer(unsigned localPort) {$/;"	f	class:android::TimeSyncer
+startWfdSink	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    private void startWfdSink(Context context, Intent intent) {$/;"	m	class:WaitingConnectionActivity	file:
+startWifiDisplaySinkActivity	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    private final void startWifiDisplaySinkActivity(String sourceAddr, int sourcePort) {$/;"	m	class:WaitingConnectionActivity	file:
+stop	lib/ANetworkSession.cpp	/^status_t ANetworkSession::stop() {$/;"	f	class:android::ANetworkSession
+storeMappedXY	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    void storeMappedXY(int mappedX, int mappedY, boolean isAbs) {$/;"	m	class:WifiDisplaySinkView
+switchToWebSocketMode	lib/ANetworkSession.cpp	/^status_t ANetworkSession::Session::switchToWebSocketMode() {$/;"	f	class:android::ANetworkSession::Session
+switchToWebSocketMode	lib/ANetworkSession.cpp	/^status_t ANetworkSession::switchToWebSocketMode(int32_t sessionID) {$/;"	f	class:android::ANetworkSession
+testMouse	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    void testMouse() {$/;"	m	class:WifiDisplaySinkView
+testStep	src/com/lc/wifidisplaysink/WifiDisplaySinkView.java	/^    void testStep(int x, int y) {$/;"	m	class:WifiDisplaySinkView
+threadLoop	lib/ANetworkSession.cpp	/^bool ANetworkSession::NetworkThread::threadLoop() {$/;"	f	class:android::ANetworkSession::NetworkThread
+threadLoop	lib/ANetworkSession.cpp	/^void ANetworkSession::threadLoop() {$/;"	f	class:android::ANetworkSession
+toString	src/com/lc/wifidisplaysink/RarpImpl.java	/^        public String toString() {$/;"	m	class:RarpImpl.ArpType
+toastLog	src/com/lc/wifidisplaysink/WifiDisplaySinkUtils.java	/^    public static void toastLog(Context ctx, String msg1, String msg2) {$/;"	m	class:WifiDisplaySinkUtils
+unRegisterBroadcastReceiver	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    private void unRegisterBroadcastReceiver() {$/;"	m	class:WaitingConnectionActivity	file:
+usage	lib/nettest.cpp	/^static void usage(const char *me) {$/;"	f	file:
+usage	lib/rtptest.cpp	/^static void usage(const char *me) {$/;"	f	file:
+usage	lib/udptest.cpp	/^static void usage(const char *me) {$/;"	f	file:
+usage	lib/wfd.cpp	/^static void usage(const char *me) {$/;"	f	namespace:android
+utilsCheckP2pFeature	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    private void utilsCheckP2pFeature() {$/;"	m	class:WaitingConnectionActivity	file:
+utilsGetAndroidID	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    private String utilsGetAndroidID() {$/;"	m	class:WaitingConnectionActivity	file:
+utilsGetMACAddress	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    private String utilsGetMACAddress() {$/;"	m	class:WaitingConnectionActivity	file:
+utilsToastLog	src/com/lc/wifidisplaysink/WaitingConnectionActivity.java	/^    private void utilsToastLog(String msg1, String msg2) {$/;"	m	class:WaitingConnectionActivity	file:
+waitUntilDone	lib/wfd.cpp	/^void RemoteDisplayClient::waitUntilDone() {$/;"	f	class:android::RemoteDisplayClient
+wantsToRead	lib/ANetworkSession.cpp	/^bool ANetworkSession::Session::wantsToRead() {$/;"	f	class:android::ANetworkSession::Session
+wantsToWrite	lib/ANetworkSession.cpp	/^bool ANetworkSession::Session::wantsToWrite() {$/;"	f	class:android::ANetworkSession::Session
+wfd_error_type	lib/sink/WifiDisplaySink.h	/^enum wfd_error_type {$/;"	g	namespace:android
+wfd_event_type	lib/sink/WifiDisplaySink.h	/^enum wfd_event_type {$/;"	g	namespace:android
+wfd_info_type	lib/sink/WifiDisplaySink.h	/^enum wfd_info_type {$/;"	g	namespace:android
+width	lib/VideoFormats.h	/^        size_t width, height, framesPerSecond;$/;"	m	struct:android::VideoFormats::config_t
+writeMore	lib/ANetworkSession.cpp	/^status_t ANetworkSession::Session::writeMore() {$/;"	f	class:android::ANetworkSession::Session
+writeNonBlocking	lib/sink/DirectRenderer.cpp	/^ssize_t DirectRenderer::AudioRenderer::writeNonBlocking($/;"	f	class:android::DirectRenderer::AudioRenderer
+writeTimeStamp	lib/SNTPClient.cpp	/^void SNTPClient::writeTimeStamp(uint8_t *dst, uint64_t ntpTime) {$/;"	f	class:android::SNTPClient
+~ANetworkSession	lib/ANetworkSession.cpp	/^ANetworkSession::~ANetworkSession() {$/;"	f	class:android::ANetworkSession
+~Assembler	lib/rtp/RTPAssembler.h	/^    virtual ~Assembler() {}$/;"	f	struct:android::RTPReceiver::Assembler
+~AudioRenderer	lib/sink/DirectRenderer.cpp	/^DirectRenderer::AudioRenderer::~AudioRenderer() {$/;"	f	class:android::DirectRenderer::AudioRenderer
+~DecoderContext	lib/sink/DirectRenderer.cpp	/^DirectRenderer::DecoderContext::~DecoderContext() {$/;"	f	class:android::DirectRenderer::DecoderContext
+~DirectRenderer	lib/sink/DirectRenderer.cpp	/^DirectRenderer::~DirectRenderer() {$/;"	f	class:android::DirectRenderer
+~JniWfdSinkListener	jni/JniWifiDisplaySink.cpp	/^JniWfdSinkListener::~JniWfdSinkListener(){$/;"	f	class:JniWfdSinkListener
+~MediaPacketSource	lib/rtptest.cpp	/^    virtual ~MediaPacketSource() {$/;"	f	struct:android::MediaPacketSource
+~MediaReceiver	lib/MediaReceiver.cpp	/^MediaReceiver::~MediaReceiver() {$/;"	f	class:android::MediaReceiver
+~NetworkThread	lib/ANetworkSession.cpp	/^ANetworkSession::NetworkThread::~NetworkThread() {$/;"	f	class:android::ANetworkSession::NetworkThread
+~PacketSource	lib/rtptest.cpp	/^    virtual ~PacketSource() {}$/;"	f	struct:android::PacketSource
+~Parameters	lib/Parameters.cpp	/^Parameters::~Parameters() {}$/;"	f	class:android::Parameters
+~PlayerClient	lib/sink/TunnelRenderer.cpp	/^    virtual ~PlayerClient() {}$/;"	f	struct:android::TunnelRenderer::PlayerClient
+~RTPReceiver	lib/rtp/RTPReceiver.cpp	/^RTPReceiver::~RTPReceiver() {$/;"	f	class:android::RTPReceiver
+~RTPSender	lib/rtp/RTPSender.cpp	/^RTPSender::~RTPSender() {$/;"	f	class:android::RTPSender
+~RemoteDisplayClient	lib/wfd.cpp	/^RemoteDisplayClient::~RemoteDisplayClient() {$/;"	f	class:android::RemoteDisplayClient
+~Session	lib/ANetworkSession.cpp	/^ANetworkSession::Session::~Session() {$/;"	f	class:android::ANetworkSession::Session
+~SimplePacketSource	lib/rtptest.cpp	/^    virtual ~SimplePacketSource() {$/;"	f	struct:android::SimplePacketSource
+~Source	lib/rtp/RTPReceiver.cpp	/^RTPReceiver::Source::~Source() {$/;"	f	class:android::RTPReceiver::Source
+~StreamSource	lib/sink/TunnelRenderer.cpp	/^TunnelRenderer::StreamSource::~StreamSource() {$/;"	f	class:android::TunnelRenderer::StreamSource
+~TestHandler	lib/nettest.cpp	/^TestHandler::~TestHandler() {$/;"	f	class:android::TestHandler
+~TestHandler	lib/rtptest.cpp	/^TestHandler::~TestHandler() {$/;"	f	class:android::TestHandler
+~TimeSyncer	lib/TimeSyncer.cpp	/^TimeSyncer::~TimeSyncer() {$/;"	f	class:android::TimeSyncer
+~TunnelRenderer	lib/sink/TunnelRenderer.cpp	/^TunnelRenderer::~TunnelRenderer() {$/;"	f	class:android::TunnelRenderer
+~WfdNativeContext	jni/JniWifiDisplaySink.cpp	/^    ~WfdNativeContext() {$/;"	f	struct:WfdNativeContext
+~WifiDisplaySink	lib/sink/WifiDisplaySink.cpp	/^WifiDisplaySink::~WifiDisplaySink() {$/;"	f	class:android::WifiDisplaySink

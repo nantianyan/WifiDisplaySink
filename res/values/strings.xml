@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WifiDisplaySink</string>
+    <string name="p2p_name">WifiDisplaySink</string>
+    <string name="err_no_ip">No Valid Networks. Try Connect a Network.</string>
+    <string name="connecting_textview">Conecting ...</string>
+    <string name="p2p_device_name">Car_MiraCast</string>
+</resources>
